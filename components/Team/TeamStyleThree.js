@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const teamMemberData = [
   {
-    image: "/images/team/team9.jpg",
-    name: "James White",
+    image: "/images/team/Evan Erickson.jpg",
+    name: "Evan Erickson",
     designation: "CEO & Founder",
 
     socialLinks: [

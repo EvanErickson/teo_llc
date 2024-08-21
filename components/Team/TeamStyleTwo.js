@@ -90,8 +90,8 @@ const teamMemberData = [
     ],
   },
   {
-    image: "/images/team/team9.jpg",
-    name: "James White",
+    image: "/images/team/Evan Erickson.jpg",
+    name: "Evan Erickson",
     designation: "Marketing Manager",
     aosDelay: "400",
 

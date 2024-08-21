@@ -39,7 +39,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      Empowering your business with innovative technology solutions and expert guidance to drive success in the digital age.
+                      Bridging global expertise with local insights to deliver cutting-edge IT solutions that drive success in China’s dynamic market.
                     </p>
 
                     <Link 
