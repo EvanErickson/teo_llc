@@ -39,8 +39,7 @@ const FunFactsTwo = () => {
           <div className="section-title">
             <h2>We always try to understand users expectation</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            By putting ourselves in your shoes, we create solutions that resonate with your vision and deliver the results you need.
             </p>
           </div>
 

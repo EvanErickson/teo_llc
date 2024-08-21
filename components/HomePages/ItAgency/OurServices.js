@@ -60,8 +60,7 @@ const OurServices = () => {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+            Comprehensive IT solutions tailored to meet your unique business needs, from strategy and consulting to implementation and support.
             </p>
           </div>
 

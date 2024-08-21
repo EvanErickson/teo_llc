@@ -34,9 +34,9 @@ const ItAgency = () => {
 
       <TeamStyleTwo />
 
-      <PricingStyleThree />
+      {/* <PricingStyleThree /> */}
 
-      <LatestNewsSliderTwo />
+      {/* <LatestNewsSliderTwo /> */}
 
       <div className="pb-100">
         <Newsletter />

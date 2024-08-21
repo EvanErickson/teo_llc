@@ -51,8 +51,7 @@ const LatestNewsSliderTwo = () => {
           <div className="section-title">
             <h2>Latest News</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Stay updated with our latest insights, industry trends, and company announcements.
             </p>
           </div>
 

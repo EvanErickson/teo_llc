@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const teamMemberData = [
   {
-    image: "/images/team/team9.jpg",
-    name: "James White",
+    image: "/images/team/Evan Erickson.jpg",
+    name: "Evan Erickson",
     designation: "CEO & Founder",
     aosDelay: "100",
 
@@ -99,8 +99,7 @@ const TeamStyleTwo = () => {
           <div className="section-title">
             <h2>Our Expert Team</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Meet the skilled professionals committed to delivering innovative and effective solutions.
             </p>
           </div>
 

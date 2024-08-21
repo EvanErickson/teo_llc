@@ -17,10 +17,7 @@ const ServiceStyleTwo = () => {
                 <div className="info-head">
                   <h2 className="title">Web & Mobile Development</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris.
+                  Creating seamless, user-centric websites and mobile apps that drive engagement and deliver exceptional digital experiences.
                   </p>
                 </div>
 
@@ -105,10 +102,7 @@ const ServiceStyleTwo = () => {
                 <div className="info-head">
                   <h2 className="title">Digital Marketing</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris.
+                  Boost your online presence and connect with your audience through targeted strategies that drive growth and maximize ROI.
                   </p>
                 </div>
 
@@ -163,10 +157,7 @@ const ServiceStyleTwo = () => {
                 <div className="info-head">
                   <h2 className="title">Cloud Hosting Services</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris.
+                  Reliable, scalable cloud solutions that ensure your business stays connected, secure, and ready for growth.
                   </p>
                 </div>
 

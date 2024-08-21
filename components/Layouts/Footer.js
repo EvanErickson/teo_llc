@@ -30,9 +30,7 @@ const Footer = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                Empowering your business with innovative technology solutions and expert guidance to drive success in the digital age.
                 </p>
 
                 <ul className="social-links">
@@ -154,14 +152,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a> 
-                    <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    <a href="tel:+324-9442-515">+1-949-449-9650</a> 
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:Evan@teollc.us">Evan@teollc.us</a>
+                    {/* <a href="mailto:support@pungent.com">support@pungent.com</a> */}
                   </li>
                 </ul>
               </div>
@@ -172,9 +168,9 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
+              Copyright &copy; {currentYear} TEOLLC. All Rights Reserved By{" "}
+              <a href="https://teollc.us/" target="_blank">
+                TEOLLC
               </a>
             </p>
           </div>

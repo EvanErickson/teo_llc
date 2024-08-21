@@ -39,9 +39,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
+                      Empowering your business with innovative technology solutions and expert guidance to drive success in the digital age.
                     </p>
 
                     <Link 

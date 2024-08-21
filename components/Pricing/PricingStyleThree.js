@@ -126,8 +126,7 @@ const PricingStyleThree = () => {
           <div className="section-title">
             <h2>Choose The Pricing Plan</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Select the plan that best fits your needs and budget, and start transforming your business today.
             </p>
           </div>
 
