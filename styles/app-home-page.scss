@@ -1,0 +1,1067 @@
+/* Global Variables */
+:root {
+    --transition: .5s;
+    --mainColor: #ED2775;
+    --whiteColor: #ffffff;
+    --blackColor: #262A37;
+    --gradientColor: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+}
+
+.app-sub-title {
+    display: block;
+    margin-bottom: 10px;
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+
+/* default-btn */
+.app-default-btn {
+    z-index: 1;
+    border: none;
+    position: relative; 
+    padding: 15px 35px;
+    border-radius: 5px;
+    display: inline-block;
+    color: var(--whiteColor);
+    transition: var(--transition);
+    box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+    font-size: 15px;
+    font: {
+        weight: 600;
+    };
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: var(--transition);
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        border-radius: 5px;
+        background: var(--gradientColor);
+    }
+    &:hover {
+        background-color: var(--mainColor);
+        color: var(--whiteColor);
+
+        &::before {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+/* Gradient Main Banner Area CSS */
+.app-main-banner {
+    background: var(--gradientColor);
+}
+.app-main-banner-inner {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    
+    padding: {
+        top: 160px;
+    };
+    .content {
+        padding-right: 15px;
+        position: relative;
+        top: 100px;
+
+        .sub-title {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: var(--whiteColor);
+            display: inline-block;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            padding: 7px 20px;
+        }
+ 
+        h1 {
+            color: var(--whiteColor);
+            margin-bottom: 20px;
+            line-height: 1.4;
+            font-size: 48px;
+        }
+        p {
+            color: var(--whiteColor);
+            max-width: 560px;
+            font-size: 16px;
+            opacity: .9;
+        }
+        .app-banner-btn {
+            margin-top: 10px;
+            color: var(--whiteColor);
+            background-color: var(--blackColor);
+            padding: 12px 30px;
+            border-radius: 5px;
+            border: none;
+            display: inline-block;
+            font-weight: 600;
+
+            i {
+                margin-left: 2px;
+            }
+    
+            &:hover {
+                color: var(--blackColor);
+                background-color: var(--whiteColor);
+            }
+        }
+    }
+    .image {
+        text-align: center;
+    }
+}
+.app-banner-shape1 {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 20%;
+
+    img {
+        animation: {
+            name: rotateme;
+            duration: 40s;
+            iteration-count: infinite;
+            timing-function: linear;
+        };
+    }
+}
+.app-banner-shape5 {
+    position: absolute;
+    bottom: 30%;
+    z-index: -1;
+    left: auto;
+    right: -2%;
+
+    img {
+        animation: movebounce 5s linear infinite;
+    }
+}
+.app-banner-shape2 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 45%;
+
+    img {
+        animation: moveleftbounce 5s linear infinite;
+    }
+}
+.app-banner-shape3 {
+    position: absolute;
+    bottom: 10px;
+    z-index: -1;
+    right: 1%;
+
+    img {
+        animation: opacitychange 4s linear 1s infinite;
+    }
+}
+.app-banner-shape4 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+/* About Area CSS */
+.app-about-content {
+    padding-left: 30px;
+    h2 {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+    .features-text {
+        margin-top: 25px;
+
+        h6 {
+            margin-bottom: 11px;
+            font-size: 19px;
+        }
+    }
+    .btn-box {
+        margin-top: 30px;
+
+        .default-btn {
+            margin-right: 15px;
+        }
+        .link-btn {
+            display: inline-block;
+            font-weight: 600;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                transition: var(--transition);
+                width: 100%;
+                bottom: 0;
+                height: 1px;
+                background-color: var(--blackColor);
+            }
+            &:hover {
+                color: var(--mainColor);
+
+                &::before {
+                    width: 0;
+                }
+            }
+        }
+    }
+}
+.app-about-image {
+    z-index: 1;
+    margin-left: 50px;
+    position: relative;
+    text-align: center;
+
+    &::before {
+        left: -30px;
+        content: '';
+        z-index: -1;
+        bottom: 10px;
+        width: 585px;
+        height: 585px;
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+    }
+}
+.app-about-img {
+    text-align: center;
+}
+
+/* Partner */
+.app-partner-item {
+    text-align: center;
+
+    img {
+        width: auto !important;
+        display: inline-block !important;
+    }
+}
+
+/* Funfacts Area CSS */
+.app-funfacts-box {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    background: var(--gradientColor);
+
+    .icon {
+        line-height: 1;
+        font-size: 55px;
+        margin-bottom: 25px;
+        color: var(--whiteColor);
+    }
+    p {
+        opacity: .95;
+        line-height: 1;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: var(--whiteColor);
+    }
+    h3 {
+        line-height: 1;
+        font-size: 40px;
+        margin-bottom: 0;
+        color: var(--whiteColor);
+
+        .sign {
+            position: relative;
+            top: 2px;
+        }
+    }
+    &.bg1 {
+        background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+    }
+    &.bg2 {
+        background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+    }
+    &.bg3 {
+        background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+    }
+}
+
+/* App Features Item */
+.app-features-area {
+    background-color: #F7F7FF;
+}
+.bg-F7F7FF {
+    background-color: #F7F7FF;
+}
+.app-features-item {
+    background-color: #fff;
+    transition: var(--transition);
+    padding: 40px 30px 35px 110px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+
+    .icon {
+        top: 40px;
+        left: 30px;
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+        position: absolute;
+        border-radius: 50%;
+        text-align: center;
+        color: var(--whiteColor);
+        transition: var(--transition);
+        box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+        background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+        
+        i {
+            left: 0;
+            right: 0;
+            top: 50%;
+            position: absolute;
+            transform: translateY(-50%);
+        }
+        &.bg2 {
+            background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+        }
+        &.bg3 {
+            background: linear-gradient(45deg, #ED2775 0%, #FF7448 100%);
+        }
+        &.bg4 {
+            background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+        }
+        &.bg5 {
+            background: linear-gradient(43.32deg, #6A55F8 14.73%, #CA48F6 86.35%, #CA48F6 86.35%);
+        }
+        &.bg6 {
+            background: linear-gradient(45deg, #6A55F8 0%, #EE6C74 100%);
+        }
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+        transition: var(--transition);
+    }
+    p {
+        transition: var(--transition);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 5px;
+        z-index: -1;
+        background: var(--gradientColor);
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--transition);
+    }
+    &:hover {
+        box-shadow: 0 50px 100px -20px rgba(50, 50, 93, .10), 0 30px 60px -30px rgba(107, 124, 147, .15);
+        
+        .icon {
+            border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+        }
+        h3, p {
+            color: var(--whiteColor);
+        }
+        &::before {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+/* App Download Area CSS */
+.app-download-inner {
+    padding-left: 100px;
+    position: relative;
+    background-color: #F7F7FF;
+    padding-right: 50px;
+
+    .app-download-image {
+        padding-top: 50px; 
+    }
+
+    .app-download-content {
+        padding-right: 15px;
+        position: relative;
+        top: 10px;
+    
+        h2 {
+            font-size: 36px;
+            line-height: 1.4;
+            margin-bottom: 15px;
+            color: var(--blackColor);
+        }
+     
+        .btn-box {
+            margin-top: 30px;
+    
+            .playstore-btn {
+                position: relative;
+                border-radius: 5px;
+                margin-right: 15px;
+                display: inline-block;
+                color: var(--paragraphColor);
+                background-color: var(--whiteColor);
+                box-shadow: 0 7px 18px 0 rgba(107, 124, 147, .15);
+                font: {
+                    size: 14px;
+                    weight: 500;
+                };
+                padding: {
+                    top: 12px;
+                    left: 60px;
+                    right: 25px;
+                    bottom: 12px;
+                };
+                span {
+                    display: block;
+                    margin-top: 2px;
+                    color: var(--blackColor);
+                    transition: var(--transition);
+                    font: {
+                        size: 17px;
+                        weight: 700;
+                    };
+                }
+                img {
+                    transform: translateY(-50%);
+                    position: absolute;
+                    left: 20px;
+                    top: 50%;
+                }
+                &:hover {
+                    background-color: var(--blackColor);
+                    transform: translateY(-3px);
+                    color: var(--whiteColor);
+    
+                    span {
+                        color: var(--whiteColor);
+                    }
+                }
+            }
+            .applestore-btn {
+                position: relative;
+                border-radius: 5px;
+                display: inline-block;
+                color: var(--paragraphColor);
+                background-color: var(--whiteColor);
+                box-shadow: 0 7px 18px 0 rgba(107, 124, 147, .15);
+                font: {
+                    size: 14px;
+                    weight: 500;
+                };
+                padding: {
+                    top: 12px;
+                    left: 65px;
+                    right: 25px;
+                    bottom: 12px;
+                };
+                span {
+                    display: block;
+                    margin-top: 2px;
+                    color: var(--blackColor);
+                    transition: var(--transition);
+                    font: {
+                        size: 17px;
+                        weight: 700;
+                    };
+                }
+                img {
+                    transform: translateY(-50%);
+                    position: absolute;
+                    left: 20px;
+                    top: 50%;
+                }
+                &:hover {
+                    background-color: var(--blackColor);
+                    transform: translateY(-3px);
+                    color: var(--whiteColor);
+    
+                    span {
+                        color: var(--whiteColor);
+                    }
+                }
+            }
+        }
+    }    
+}
+
+/* App Screenshots Slides  */
+.app-screenshots-slides {
+    .swiper-button-prev {
+        &:after {
+            color: var(--mainColor);
+        }
+    }
+    .swiper-button-next {
+        &:after {
+            color: var(--mainColor);
+        }
+    }
+    .swiper-pagination {
+        position: relative;
+        margin-top: 10px;
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background: #D6D6D6;
+            border: 1px solid #b7b7b7;
+            opacity: 1;
+            &.swiper-pagination-bullet-active {
+                background: var(--gradientColor);
+                border: 1px solid #ff2c9c;
+            }
+        } 
+    }
+    .app-screenshot-item {
+        text-align: center;
+    }
+}
+
+/* Feedback Area CSS */
+.app-feedback-box {
+    transition: var(--transition);
+    background: #F7F7FF;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid #efefef;
+    border-radius: 15px;
+
+    .client-info {
+        margin-bottom: 20px;
+
+        img {
+            height: 60px;
+            border-radius: 50%;
+            width: 60px !important;
+        }
+        .title {
+            margin-left: 15px;
+
+            h3 {
+                font-size: 18px;
+                margin-bottom: 7px;
+            }
+            span {
+                display: block;
+                font-size: 14px;
+                color: var(--mainColor);
+            }
+        }
+    }
+    p {
+        font-size: 16px;
+    }
+    .rating {
+        margin-top: 25px;
+
+        h5 {
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+        div {
+            i {
+                line-height: 1;
+                color: #FFCA40;
+                margin-left: 2px;
+            }
+        }
+    }
+    &:hover {
+        background-color: var(--whiteColor);
+        box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
+    }
+}
+  
+/* Free Trial Area CSS */
+.app-free-trial-content {
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    z-index: 1;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        bottom: 0;
+        border-radius: 5px;
+        background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .sub-title {
+        display: block;
+        margin-bottom: 12px;
+        letter-spacing: 0.1em;
+        color: var(--whiteColor);
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 1.4;
+        max-width: 650px;
+        color: var(--whiteColor);
+        margin: {
+            bottom: 0;
+            left: auto;
+            right: auto;
+        };
+    }
+    form {
+        max-width: 700px;
+        position: relative;
+        margin: {
+            top: 30px;
+            left: auto;
+            right: auto;
+        };
+        .input-newsletter {
+            width: 100%;
+            height: 70px;
+            display: block;
+            padding-left: 25px;
+            background-color: var(--whiteColor);
+            color: var(--blackColor);
+            border-radius: 5px;
+            border: none;
+
+            &::placeholder {
+                color: var(--paragraphColor);
+                transition: var(--transition);
+            }
+            &:focus {
+                outline: 0;
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+        }
+        .app-default-btn {
+            position: absolute;
+            border-radius: 5px;
+            height: 60px;
+            right: 5px;
+            top: 5px;
+
+            &::before {
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+/* Blog Area CSS */
+.app-blog-post {
+    margin-bottom: 30px;
+
+    .image {
+        overflow: hidden;
+        position: relative;
+
+        img {
+            transition: var(--transition);
+        }
+        .tag {
+            background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+            color: var(--whiteColor);
+            position: absolute;
+            border-radius: 2px;
+            padding: 4px 15px;
+            left: 15px;
+            top: 15px;
+            font: {
+                size: 13px;
+                weight: 500;
+            };
+        }
+    }
+    .content {
+        margin-top: 20px;
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 12px;
+            padding-left: 0;
+
+            li {
+                color: var(--paragraphColor);
+                display: inline-block;
+                padding-left: 19px;
+                margin-right: 15px;
+                position: relative;
+                font-size: 14px;
+
+                i {
+                    left: 0;
+                    top: 2px;
+                    position: absolute;
+                    color: var(--mainColor);
+                }
+                a {
+                    color: var(--paragraphColor);
+
+                    &:hover {
+                        color: var(--mainColor);
+                    }
+                }
+            }
+        }
+        h3 {
+            line-height: 1.5;
+            margin-bottom: 0;
+            font-size: 20px;
+
+            a {
+                transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+                position: relative;
+                padding: 0.1% 0px;
+                display: inline;
+                color: inherit;
+                background: {
+                    image: -webkit-gradient(linear, left top, right top, from(currentColor), to(currentColor));
+                    image: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%);
+                    image: -o-linear-gradient(left, currentColor 0%, currentColor 100%);
+                    image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+                    size: 0px 2px;
+                    position: 0px 95%;
+                    repeat: no-repeat;
+                }
+                &:hover {
+                    background-size: 100% 2px;
+                }
+            }
+        }
+    }
+    &:hover {
+        .image {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+/* Pricing Area CSS */
+.app-pricing-box {
+    padding: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1px solid #eee;
+    transition: var(--transition);
+    background-color: var(--whiteColor);
+
+    .title {
+        margin-bottom: 25px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+    }
+    .price {
+        margin-bottom: 30px;
+        line-height: 1;
+        color: var(--blackColor);
+        font: {
+            size: 48px;
+            weight: 700;
+        };
+        span {
+            margin-left: -10px;
+            display: inline-block;
+            color: var(--paragraphColor);
+            font: {
+                weight: normal;
+            };
+            font-size: 14px;
+        }
+    }
+    .features-list {
+        padding-left: 0;
+        list-style-type: none;
+        margin: {
+            top: 35px;
+            bottom: 0;
+        };
+        li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 25px;
+            font: {
+                size: 15px;
+                weight: 500;
+            };
+            i {
+                top: 1px;
+                left: -2px;
+                font-size: 18px;
+                color: #36CC72;
+                position: absolute;
+
+                &.fa-xmark {
+                    color: red;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &:hover, &.active {
+        box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
+    }
+    .popular {
+        display: block;
+        background: var(--gradientColor);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+}
+
+.faq-img {
+    position: relative;
+    .app-default-btn {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+    }
+}
+
+/* Responsive Style ----------- */
+@media only screen and (max-width : 767px) {
+    .navbar-area {
+        &.bg-white {
+            padding: 0 !important;
+        }
+    }
+    .app-main-banner-inner {
+        padding-top: 130px;
+        .content {
+            position: initial;
+            padding-right: 0;
+            h1 {
+                font-size: 30px;
+            }
+        }
+        .image {
+            margin-top: 30px;
+        }
+    }
+    .app-banner-shape1, .app-banner-shape5 {
+        display: none;
+    }
+
+    .app-about-img {
+        margin-bottom: 30px;
+    }
+    .app-about-content {
+        padding-left: 0;
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .app-features-item {
+        padding: 30px 25px 25px 80px;
+        .icon {
+            top: 30px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .app-download-inner {
+        padding: 30px 20px;
+        .app-download-content {
+            padding-right: 0;
+            h2 {
+                font-size: 25px;
+            }
+            .btn-box {
+                .playstore-btn {
+                    margin-right: 6px;
+                    font-size: 10px;
+                    padding-left: 40px;
+                    padding-right: 10px;
+                    img {
+                        left: 10px;
+                        width: 23px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                }
+                .applestore-btn {
+                    font-size: 10px;
+                    padding-left: 40px;
+                    padding-right: 10px;
+                    img {
+                        left: 10px;
+                        width: 23px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .app-feedback-box {
+        padding: 20px;
+    }
+    .app-pricing-box {
+        padding: 20px;
+        .title {
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+        .app-default-btn {
+            padding: 12px 25px;
+            font-size: 14px;
+        }
+        .features-list {
+            margin-top: 25px;
+        }
+    }
+
+    .app-free-trial-content {
+        padding: 20px;
+        h2 {
+            font-size: 25px;
+        }
+        form {
+            .input-newsletter {
+                height: 55px;
+                font-size: 13px;
+                padding-left: 15px;
+            }
+            .app-default-btn {
+                height: 45px;
+                padding: 5px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 575px) {
+    .app-free-trial-content {
+        form {
+            .app-default-btn {
+                position: inherit;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+ 
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .app-main-banner-inner {
+        .content {
+            padding-right: 0;
+            position: initial;
+        }
+        .image {
+            margin-top: 50px;
+        }
+    }
+
+    .app-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .app-download-inner {
+        padding: 50px 50px 0;
+    }
+
+    .app-pricing-box {
+        padding: 40px 30px;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .app-main-banner-inner {
+        .content {
+            top: 30px;
+
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .app-funfacts-box {
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .app-download-inner {
+        padding-left: 30px;
+        padding-right: 30px;
+  
+        .app-download-content {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .app-pricing-box {
+        padding: 30px 20px;
+        .popular {
+            right: 15px;
+            top: 15px;
+            font-size: 12px;
+        }
+        .price {
+            font-size: 40px;
+        }
+        .features-list {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1399px) {
+ 
+}

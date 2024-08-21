@@ -1,0 +1,729 @@
+/* Global Variables */
+.ptb-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+/* Consulting Banner Area CSS */
+.consulting-banner-area {
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 270px;
+  padding-bottom: 200px;
+}
+.consulting-banner-area::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.consulting-banner-content {
+  max-width: 790px;
+}
+.consulting-banner-content h1 {
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.consulting-banner-content p {
+  max-width: 580px;
+}
+.consulting-banner-content .default-btn-two {
+  margin-top: 15px;
+}
+
+/* Features */
+.bg-1b2232 {
+  background-color: #1b2232;
+}
+
+.bc-features-item {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 70px;
+}
+.bc-features-item .icon {
+  position: absolute;
+  left: 0;
+  line-height: 1;
+  top: 0;
+  font-size: 45px;
+  color: #f9004d;
+}
+.bc-features-item h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #fff;
+  max-width: 140px;
+}
+
+/* Who We Are Area CSS */
+.bc-who-we-are-area .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.bc-who-we-are-area .row .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bc-who-we-are-content {
+  padding: 40px;
+  background-color: #f3f4f7;
+}
+.bc-who-we-are-content .sub-title {
+  display: block;
+  margin-bottom: 10px;
+  color: #f9004d;
+  font-weight: 600;
+  font-size: 14px;
+}
+.bc-who-we-are-content h2 {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+.bc-who-we-are-content .default-btn-two {
+  margin-top: 10px;
+}
+
+.bc-who-we-are-image {
+  text-align: center;
+  position: relative;
+}
+.bc-who-we-are-image .video-btn {
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  color: #18181b;
+  background-color: #fff;
+  transform: translateY(-50%) translateX(-50%);
+}
+.bc-who-we-are-image .video-btn i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bc-who-we-are-image .video-btn::after, .bc-who-we-are-image .video-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1.5px solid #f9004d;
+}
+.bc-who-we-are-image .video-btn::before {
+  animation: ripple 2s linear infinite;
+}
+.bc-who-we-are-image .video-btn::after {
+  animation: ripple 2s linear 1s infinite;
+}
+
+/* Services */
+.bc-services-item {
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.bc-services-item img {
+  transition: all 0.6s ease;
+}
+.bc-services-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  transition: all 0.6s ease;
+  background-color: #f9004d;
+}
+.bc-services-item h3 {
+  font-size: 22px;
+  transition: all 0.6s ease;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.bc-services-item .hover-content {
+  left: 0;
+  right: 0;
+  top: 50%;
+  padding: 30px;
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s ease;
+  color: #fff;
+}
+.bc-services-item .hover-content h3 {
+  opacity: 1 !important;
+  visibility: visible !important;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.bc-services-item .hover-content h3 a {
+  color: #fff;
+}
+.bc-services-item .hover-content p {
+  color: #fff;
+  font-size: 15px;
+}
+.bc-services-item .hover-content .link-btn {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding-right: 12px;
+  color: #fff;
+}
+.bc-services-item .hover-content .link-btn i {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-size: 12px;
+}
+.bc-services-item .hover-content .link-btn::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+  transition: all 0.6s ease;
+}
+.bc-services-item .hover-content .link-btn:hover {
+  padding-right: 15px;
+}
+.bc-services-item .hover-content .link-btn:hover::before {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+.bc-services-item:hover img {
+  transform: scale(1.7);
+}
+.bc-services-item:hover h3 {
+  opacity: 0;
+  visibility: hidden;
+}
+.bc-services-item:hover .hover-content {
+  opacity: 1;
+  visibility: visible;
+}
+.bc-services-item:hover::before {
+  opacity: 0.9;
+  visibility: visible;
+}
+
+/* Funfacts Area CSS */
+.bc-funfacts-area.bg-image {
+  background-color: #18181b;
+  background-image: url(/images/business-consulting/funfacts-are-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bc-funfacts-box {
+  margin-bottom: 30px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #18181b;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 85px;
+  padding-right: 30px;
+}
+.bc-funfacts-box .icon {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f9004d;
+  font-size: 45px;
+}
+.bc-funfacts-box h3 {
+  color: #f9004d;
+  margin-bottom: 4px;
+  font-size: 40px;
+}
+.bc-funfacts-box h3 .sign {
+  position: relative;
+  top: 1px;
+}
+.bc-funfacts-box .sub-title {
+  display: block;
+  font-weight: 600;
+}
+.bc-funfacts-box .shape {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.bc-funfacts-box.text-center {
+  border-right: 2px dashed rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row .col-lg-3:last-child .bc-funfacts-box.text-center {
+  border-right: none;
+}
+
+/* What We Do Area CSS */
+.bc-what-we-do-content .section-title {
+  text-align: start;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.bc-what-we-do-content .section-title p {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bc-what-we-do-content .bc-what-we-do-box {
+  margin-bottom: 0;
+}
+
+.bc-what-we-do-box {
+  margin-bottom: 30px;
+}
+.bc-what-we-do-box .icon {
+  display: block;
+  line-height: 1;
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: #f9004d;
+}
+.bc-what-we-do-box h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* Team Card */
+.bc-bg-f3f4f7 {
+  background-color: #f3f4f7;
+}
+
+.bc-team-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.bc-team-box .image {
+  position: relative;
+}
+.bc-team-box .image .social {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-left: 0;
+  margin-bottom: 15px;
+  list-style-type: none;
+  transition: all 0.6s ease;
+  opacity: 0;
+  visibility: hidden;
+  padding: 25px;
+}
+.bc-team-box .image .social li {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.bc-team-box .image .social li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  line-height: 35px;
+  background-color: #fff;
+  color: #18181b;
+}
+.bc-team-box .image .social li a:hover {
+  background-color: #f9004d;
+  color: #fff;
+}
+.bc-team-box .content {
+  margin-top: 22px;
+}
+.bc-team-box .content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.bc-team-box .content span {
+  display: block;
+}
+.bc-team-box:hover .image .social {
+  opacity: 1;
+  margin-bottom: 0;
+  visibility: visible;
+}
+.bc-team-box:hover .image .social li a:hover {
+  background-color: #f9004d;
+}
+
+/* Pricing */
+.bc-pricing-item {
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #f3f4f7;
+  transition: all 0.6s ease;
+}
+.bc-pricing-item .pricing-header {
+  border-bottom: 1px solid #e5e4e4;
+  transition: all 0.6s ease;
+  margin: -30px 0 30px;
+  padding: 30px;
+}
+.bc-pricing-item .pricing-header h3 {
+  transition: all 0.6s ease;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.bc-pricing-item .pricing-header .price {
+  color: #f9004d;
+  margin-bottom: 12px;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 45px;
+}
+.bc-pricing-item .pricing-header .price span {
+  opacity: 0.9;
+  transition: all 0.6s ease;
+  font-size: 14px;
+  font-weight: normal;
+}
+.bc-pricing-item .features-list {
+  padding-left: 0;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+.bc-pricing-item .features-list li {
+  margin-bottom: 12.5px;
+}
+.bc-pricing-item .features-list li.unactive {
+  text-decoration: line-through;
+  color: #b0b1c0;
+}
+.bc-pricing-item .features-list li:last-child {
+  margin-bottom: 0;
+}
+.bc-pricing-item .ribbon {
+  top: -10px;
+  right: -25px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.bc-pricing-item .ribbon span {
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #18181b;
+  transform: rotate(45deg);
+  text-align: center;
+  position: absolute;
+  display: block;
+  width: 225px;
+  left: -25px;
+  top: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.bc-pricing-item.active, .bc-pricing-item:hover {
+  color: #fff;
+  background-color: #2d2d37;
+}
+.bc-pricing-item.active .pricing-header, .bc-pricing-item:hover .pricing-header {
+  border-bottom-color: #464c59;
+}
+.bc-pricing-item.active .pricing-header h3, .bc-pricing-item:hover .pricing-header h3 {
+  color: #fff;
+}
+.bc-pricing-item.active .pricing-header .price span, .bc-pricing-item:hover .pricing-header .price span {
+  color: #fff;
+}
+.bc-pricing-item.active .default-btn, .bc-pricing-item:hover .default-btn {
+  background-color: #fff;
+  color: #18181b;
+}
+.bc-pricing-item.active .default-btn i, .bc-pricing-item:hover .default-btn i {
+  color: #18181b;
+}
+
+/* Call To Action */
+.call-to-action-area.bg-image {
+  background-image: url(/images/business-consulting/cta-bg.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call-to-action-content {
+  color: #fff;
+}
+.call-to-action-content h2 {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 1.4;
+  font-size: 37px;
+}
+
+.call-to-action-btn {
+  text-align: end;
+}
+.call-to-action-btn .default-btn-two:hover {
+  background-color: #fff;
+  color: #18181b;
+}
+.call-to-action-btn .default-btn-two:hover i {
+  color: #18181b;
+}
+
+/* Blog Post */
+.bc-post-item {
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+}
+.bc-post-item .post-content {
+  padding: 25px;
+}
+.bc-post-item .post-content .tag {
+  margin-bottom: 14px;
+  display: inline-block;
+  position: relative;
+  padding-left: 24px;
+  font-weight: 600;
+  color: #f9004d;
+}
+.bc-post-item .post-content .tag i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.bc-post-item .post-content .meta {
+  padding-left: 0;
+  margin-bottom: 13px;
+  list-style-type: none;
+}
+.bc-post-item .post-content .meta li {
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  padding-left: 22px;
+  font-size: 15px;
+}
+.bc-post-item .post-content .meta li i {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  color: #f9004d;
+}
+.bc-post-item .post-content .meta li a {
+  color: #646464;
+}
+.bc-post-item .post-content .meta li a:hover {
+  color: #f9004d;
+}
+.bc-post-item .post-content h3 {
+  margin-bottom: 14px;
+  line-height: 1.4;
+  font-size: 20px;
+}
+.bc-post-item .post-content h3 a {
+  color: #000;
+}
+.bc-post-item .post-content .link-btn {
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  padding-right: 12px;
+  color: #000;
+  font-size: 15px;
+}
+.bc-post-item .post-content .link-btn i {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-size: 12px;
+}
+.bc-post-item .post-content .link-btn::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #f9004d;
+  transition: all 0.6s ease;
+}
+.bc-post-item .post-content .link-btn:hover {
+  padding-right: 15px;
+  color: #f9004d;
+}
+.bc-post-item .post-content .link-btn:hover::before {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+
+/* Responsive CSS 
+================================*/
+@media only screen and (max-width: 767px) {
+  .pt-70 {
+    padding-top: 50px;
+  }
+  .pb-40 {
+    padding-bottom: 20px;
+  }
+  .consulting-banner-area {
+    padding-top: 140px;
+    padding-bottom: 80px;
+  }
+  .consulting-banner-area::before {
+    background-image: none;
+    background-color: #fff;
+    opacity: 0.8;
+  }
+  .consulting-banner-area h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .bc-who-we-are-content {
+    padding: 25px;
+  }
+  .bc-services-item h3 {
+    font-size: 20px;
+  }
+  .bc-funfacts-box h3 {
+    font-size: 35px;
+  }
+  .bc-funfacts-box .sub-title {
+    font-size: 13px;
+  }
+  .bc-what-we-do-content .bc-what-we-do-box {
+    margin-bottom: 30px;
+  }
+  .call-to-action-content {
+    text-align: center;
+  }
+  .call-to-action-content h2 {
+    font-size: 25px;
+  }
+  .call-to-action-btn {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .bc-pricing-item {
+    padding: 30px 15px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .bc-features-item {
+    text-align: center;
+    border: 1px solid #323a4a;
+    padding: 30px 15px;
+  }
+  .bc-features-item .icon {
+    position: initial;
+    margin-bottom: 15px;
+  }
+  .bc-features-item h3 {
+    font-size: 17px;
+  }
+  .bc-features-item h3 br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .consulting-banner-area {
+    padding-top: 170px;
+    padding-bottom: 110px;
+  }
+  .consulting-banner-area::before {
+    background-image: none;
+    background-color: #fff;
+    opacity: 0.8;
+  }
+  .consulting-banner-area h1 {
+    font-size: 40px;
+  }
+  .bc-features-item {
+    padding-left: 60px;
+  }
+  .bc-features-item .icon {
+    top: 2px;
+    font-size: 35px;
+  }
+  .bc-features-item h3 {
+    font-size: 15px;
+  }
+  .bc-what-we-do-content .bc-what-we-do-box {
+    margin-bottom: 30px;
+  }
+  .call-to-action-content {
+    text-align: center;
+  }
+  .call-to-action-content h2 {
+    font-size: 30px;
+  }
+  .call-to-action-btn {
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .consulting-banner-area {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+}/*# sourceMappingURL=business-consulting-home-page.css.map */

@@ -1,0 +1,1049 @@
+$main-color: #ff2c9c;
+$gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+$main-font-family: 'Inter', sans-serif;
+$heading-font-family: 'Saira', sans-serif;
+$black-color: #18181b;
+$paragraph-color: #646464;
+$white-color: #ffffff;
+$transition: all 0.6s ease;
+
+.software-btn {
+    background-color: $main-color;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 35px;
+    transition: $transition;
+    border: 1px solid $main-color;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.software-btn:hover {
+    background-color: $black-color;
+    border: 1px solid $black-color;
+    color: #fff;
+}
+
+/* Software Banner Area CSS */
+.software-banner-area {
+	z-index: 1;
+	position: relative;
+	padding: {
+		top: 120px;
+		bottom: 10px;
+	}
+	.container-fluid {
+		padding: {
+			left: 0;
+			right: 0;
+		}
+		.row {
+			margin: {
+				left: 0;
+				right: 0;
+			}
+			.col-lg-6 {
+				padding: {
+					left: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+	&::before {
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		content: "";
+		height: 90%;
+		position: absolute;
+		background: {
+			image: url(/images/software/banner-bg.png);
+			position: center center;
+			repeat: no-repeat;
+			size: cover;
+		}
+	}
+}
+.software-banner-content {
+	max-width: 648px;
+	margin-left: auto;
+	padding-right: 15px;
+
+	.sub-title {
+		color: $main-color;
+		margin-bottom: 15px;
+		display: block;
+	}
+	h1 {
+		font-size: 65px;
+		margin-bottom: 20px;
+	}
+	p {
+		max-width: 540px;
+	}
+	.software-btn {
+		margin-top: 15px;
+	}
+}
+.software-banner-image {
+	padding-left: 15px;
+	text-align: center;
+}
+
+/* Help Desk Area CSS */
+.software-single-help-desk-box {
+	margin-bottom: 30px;
+	background-color: #f5f5f5;
+	padding: 40px 30px;
+	position: relative;
+	transition: $transition;
+
+	&::before {
+		background: $gradient-color;
+		width: 0%;
+		height: 3px;
+		left: 0;
+		top: 0;
+		content: '';
+		position: absolute;
+		transition: $transition;
+	}
+
+	&:hover, &:hover::before {
+		width: 100%;
+		transform: translateY(-5px);
+	}
+
+	.icon {
+		margin-bottom: 25px;
+	}
+	h3 {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.link-btn {
+		position: relative;
+		padding-right: 14px;
+		display: inline-block;
+		color: $main-color;
+		font: {
+			size: 15px;
+			weight: 600;
+		}
+		i {
+			position: relative;
+			font-size: 17px;
+			top: 1px;
+		}
+		&:hover {
+			color: $black-color;
+			padding-right: 20px;
+		}
+	}
+}
+
+/* Screenshots Area */
+.screenshots-area {
+	&.bg-gradient {
+        background: $gradient-color !important;
+	}
+}
+.screenshots-tabs {
+	.react-tabs__tab-list {
+		list-style-type: none;
+		padding: 0;
+		margin: 0 0 30px;
+		.react-tabs__tab {
+			background-color: #ffffff;
+			border: 1px solid #eee;
+			cursor: pointer;
+			display: block;
+			margin-bottom: 15px;
+			padding: 15px 20px;
+			font-weight: 600;
+			color: #000;
+			border-radius: 6px;
+			transition: $transition;
+			&:hover, &.react-tabs__tab--selected {
+				background-color: $black-color;
+				border: 1px solid $black-color;
+				color: #fff;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&:focus-visible {
+				outline: 0 !important;
+			}
+		}
+	}
+}
+
+/* Software partner area */
+.software-partner-area {
+	.partner-title {
+		color: #1d2b53;
+		font-weight: 600;
+	}
+}
+.software-partner-item {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+/* Software Overview Box */
+.software-overview-box {
+	padding-bottom: 100px;
+
+	&:nth-child(2),
+	&:nth-child(4),
+	&:nth-child(6),
+	&:nth-child(8),
+	&:nth-child(10),
+	&:nth-child(12) {
+		.overview-image {
+			padding: {
+				right: calc(var(--bs-gutter-x) * 0.5);
+				left: 30px;
+			}
+		}
+		.overview-content {
+			padding: {
+				right: 30px;
+				left: calc(var(--bs-gutter-x) * 0.5);
+			}
+		}
+	}
+	&:last-child {
+		padding-bottom: 0;
+	}
+	.overview-image {
+		text-align: center;
+		padding-right: 30px;
+	}
+	.overview-content {
+		padding-left: 30px;
+
+		.sub-title {
+			display: block;
+			margin-bottom: 12px;
+			font: {
+				size: 17px;
+				weight: 600;
+			}
+		}
+		h2 {
+			font-size: 42px;
+			margin-bottom: 15px;
+		}
+		.overview-list {
+			padding-left: 0;
+			list-style-type: none;
+			margin: {
+				bottom: 0;
+				top: 45px;
+			}
+			li {
+				margin: {
+					bottom: 30px;
+					right: 80px;
+				}
+				span {
+					display: block;
+					position: relative;
+					border-radius: 7px;
+					padding: 15px 25px 15px 75px;
+					background-color: $white-color;
+					box-shadow: 0px 5px 28px 12px rgba(0, 0, 0, 0.06);
+					color: $black-color;
+					font: {
+						size: 20px;
+						weight: 700;
+					}
+					i {
+						transition:$transition;
+						transform: translateY(-50%);
+						background-color: $main-color;
+						color: $white-color;
+						display: inline-block;
+						border-radius: 50%;
+						text-align: center;
+						position: absolute;
+						line-height: 36px;
+						font-size: 22px;
+						height: 36px;
+						width: 36px;
+						left: 25px;
+						top: 50%;
+					}
+					a {
+						color:$black-color;
+
+						&:hover {
+							color: $main-color;
+						}
+					}
+					&:hover {
+						i {
+							background-color: $black-color;
+							color: $white-color;
+						}
+					}
+				}
+				&:nth-child(2),
+				&:nth-child(4),
+				&:nth-child(6),
+				&:nth-child(8),
+				&:nth-child(10),
+				&:nth-child(12) {
+					margin: {
+						left: 80px;
+						right: 0;
+					}
+				}
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+/* Funfacts */
+.software-funfacts-item {
+	position: relative;
+	margin-bottom: 25px;
+	padding: {
+		top: 20px;
+		left: 145px;
+		bottom: 20px;
+	}
+	.icon {
+		top: 0;
+		left: 0;
+		width: 120px;
+		height: 120px;
+		font-size: 50px;
+		text-align: center;
+		position: absolute;
+		border-radius: 50%;
+		color: $main-color;
+		transition: $transition;
+		background-color: $white-color;
+		box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.1);
+
+		i {
+			left: 0;
+			right: 0;
+			top: 50%;
+			position: absolute;
+			transform: translateY(-50%);
+		}
+	}
+	h3 {
+		color: $main-color;
+		margin-bottom: 5px;
+		font-size: 38px;
+	}
+	p {
+		line-height: initial;
+		color: #616b7e;
+		font-size: 20px;
+	}
+	&:hover {
+		.icon {
+			background-color: $main-color;
+			color: $white-color;
+		}
+	}
+}
+.software {
+	&.video-box {
+		position: relative;
+		max-width: 1095px;
+		z-index: 1;
+		margin: {
+			top: 75px;
+			left: auto;
+			right: auto;
+		}
+		.video-btn {
+			width: 90px !important;
+			height: 90px !important;
+		}
+	}
+}
+
+
+/* Pricing Area CSS */
+.software-pricing-box {
+	z-index: 1;
+	padding: 40px;
+	position: relative;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: $white-color;
+	border: 1px solid #eee;
+
+	h3 {
+		font-size: 22px;
+		margin-bottom: 8px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.price {
+		line-height: 1;
+		color: $black-color;
+		margin: {
+			bottom: 30px;
+			top: 20px;
+		}
+		font: {
+			size: 55px;
+			weight: 700;
+		}
+		span {
+			color: $paragraph-color;
+			font: {
+				size: 16px;
+				weight: normal;
+			}
+		}
+	}
+	.features-list {
+		padding-left: 0;
+		list-style-type: none;
+		margin: {
+			top: 35px;
+			bottom: 0;
+		}
+		li {
+			margin-bottom: 17px;
+			position: relative;
+			padding: {
+				top: 2px;
+				left: 35px;
+				bottom: 2px;
+			}
+			font: {
+				size: 16px;
+				weight: 600;
+			}
+			i {
+				background-color: $main-color;
+				transition: $transition;
+				transform: translateY(-50%);
+				color: $white-color;
+				margin-top: -1px;
+				display: inline-block;
+				border-radius: 50%;
+				text-align: center;
+				position: absolute;
+				line-height: 25px;
+				font-size: 14px;
+				height: 25px;
+				width: 25px;
+				top: 50%;
+				left: 0;
+			}
+			&.close {
+				i {
+					background-color: #ff004d;
+				}
+			}
+			&:hover {
+				i {
+					background-color: $black-color;
+					color: $white-color;
+				}
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&::before {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: 0;
+		z-index: -1;
+		content: "";
+		position: absolute;
+		visibility: hidden;
+		transition: $transition;
+		background: linear-gradient(
+			180deg,
+			rgba(98, 236, 255, 0.21) 0%,
+			rgba(180, 246, 255, 0.0735) 100%
+		);
+	}
+	&:hover,
+	&.active {
+		&::before {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+/* Software faq */
+.software-faq {
+	&.faq-accordion {
+		.accordion {
+			.accordion__item {
+				box-shadow: 0px 0px 59px 31px rgba(0, 0, 0, 0.05);
+				border-radius: 10px;
+				.accordion__button {
+					border-radius: 10px;
+    				padding: 15px 40px 15px 20px;
+					background-color: #fff;
+					&::before {
+						position: absolute;
+						right: 10px;
+						top: 23px;
+					}
+				}
+			}
+			.accordion__panel {
+				box-shadow: 0px 0px 59px 31px rgba(0, 0, 0, 0.05);
+			}
+		}
+	}
+}
+.faq-img {
+	&.pl-30 {
+		padding-left: 30px;
+	}
+}
+/* End Software faq */
+
+
+/* App Download Area CSS */
+.softeware-app-download-area {
+	background-color: #473bf0;
+}
+.softeware-app-download-image {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+	&::before {
+		left: 0;
+		z-index: -1;
+		content: "";
+		width: 635px;
+		height: 635px;
+		bottom: -225px;
+		position: absolute;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.2);
+		animation: border-transform 10s linear infinite alternate forwards;
+	}
+}
+.softeware-app-download-content {
+	margin-top: 80px;
+	padding-left: 15px;
+
+	.sub-title {
+		display: block;
+		margin-bottom: 12px;
+		color: $white-color;
+		font: {
+			size: 17px;
+			weight: 600;
+		}
+	}
+	h2 {
+		font-size: 42px;
+		margin-bottom: 15px;
+		color: $white-color;
+	}
+	p {
+		color: $white-color;
+	}
+	.btn-box {
+		margin-top: 35px;
+
+		.playstore-btn {
+			position: relative;
+			border-radius: 5px;
+			margin-right: 15px;
+			display: inline-block;
+			color: $paragraph-color;
+			background-color: $white-color;
+			box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+			font: {
+				size: 14px;
+				weight: 500;
+			}
+			padding: {
+				top: 12px;
+				left: 60px;
+				right: 25px;
+				bottom: 12px;
+			}
+			span {
+				display: block;
+				margin-top: 2px;
+				transition: $transition;
+				font: {
+					size: 17px;
+					weight: 700;
+				}
+			}
+			.img {
+				transform: translateY(-50%);
+				position: absolute;
+				left: 20px;
+				top: 50%;
+			}
+			&:hover {
+				background-color: $black-color;
+				transform: translateY(-3px);
+				color: $white-color;
+
+				span {
+					color: $white-color !important;
+				}
+			}
+		}
+		.applestore-btn {
+			position: relative;
+			border-radius: 5px;
+			display: inline-block;
+			color: $paragraph-color;
+			background-color: $white-color;
+			box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+			font: {
+				size: 14px;
+				weight: 500;
+			}
+			padding: {
+				top: 12px;
+				left: 65px;
+				right: 25px;
+				bottom: 12px;
+			}
+			span {
+				display: block;
+				margin-top: 2px;
+				transition: $transition;
+				font: {
+					size: 17px;
+					weight: 700;
+				}
+			}
+			.img {
+				transform: translateY(-50%);
+				position: absolute;
+				left: 20px;
+				top: 50%;
+			}
+			&:hover {
+				background-color: $black-color;
+				transform: translateY(-3px);
+				color: $white-color;
+
+				span {
+					color: $white-color !important;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+/* Responsive Style ----------- */
+@media only screen and (max-width : 767px) {
+	.software-btn {
+		padding: 10px 20px;
+		font-size: 13px;
+	}
+
+	.software-banner-area {
+		padding-bottom: 50px;
+		border-bottom: 1px solid #eee;
+		margin-bottom: 50px;
+	}
+	.software-banner-content {
+		max-width: 540px;
+		margin: auto;
+		padding: 0 15px;
+		text-align: center;
+		h1 {
+			font-size: 35px;
+			margin-bottom: 15px;
+		}
+		.software-btn {
+			margin-top: 10px;
+		}
+	}
+	.software-banner-image {
+		padding: 0 15px;
+		margin-top: 30px;
+	}
+
+	.software-overview-box {
+		padding-bottom: 50px;
+
+		&:nth-child(2),
+		&:nth-child(4),
+		&:nth-child(6),
+		&:nth-child(8),
+		&:nth-child(10),
+		&:nth-child(12) {
+			.overview-image {
+				padding: {
+					left: 15px;
+				}
+			}
+			.overview-content {
+				padding: {
+					right: 15px;
+				}
+			}
+		}
+
+		.overview-image {
+			padding-right: 0;
+			&.left-img {
+				margin-bottom: 30px;
+			}
+			&.right-img {
+				margin-top: 30px;
+			}
+		}
+		.overview-content {
+			padding-left: 15px;
+			.sub-title {
+				margin-bottom: 10px;
+				font-size: 15px;
+			}
+			h2 {
+				font-size: 30px;
+			}
+			.overview-list {
+				margin-top: 25px;
+
+				li {
+					margin-right: 0;
+
+					&:nth-child(2),
+					&:nth-child(4),
+					&:nth-child(6),
+					&:nth-child(8),
+					&:nth-child(10),
+					&:nth-child(12) {
+						margin: {
+							left: 0;
+							right: 0;
+						}
+					}
+
+					span {
+						padding: 20px 25px 20px 70px;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.software-funfacts-item {
+		text-align: center;
+		border: 1px solid #eee;
+		padding: 20px 15px;
+		.icon {
+			width: 70px;
+			height: 70px;
+			font-size: 30px;
+			position: relative;
+			margin: 0 auto 15px;
+			i {
+				margin: 0;
+			}
+		}
+		h3 {
+			font-size: 27px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+
+	.software {
+		&.video-box {
+			margin-top: 20px;
+		}
+	}
+
+	.software-pricing-box {
+		padding: 30px;
+		.features-list {
+			li {
+				font-size: 13px;
+				padding-left: 27px;
+				i {
+
+					line-height: 20px;
+					font-size: 15px;
+					height: 20px;
+					width: 20px;
+				}
+			}
+		}
+	}
+
+	.software-faq {
+		margin-bottom: 30px;
+	}
+	.faq-img {
+		&.pl-30 {
+			padding: 0;
+		}
+	}
+
+	.softeware-app-download-area  {
+		padding-bottom: 50px;
+	}
+	.softeware-app-download-image {
+		&::before {
+			display: none;
+		}
+	}
+	.softeware-app-download-content {
+		margin-top: 30px;
+		padding-left: 0;
+		.sub-title {
+			font-size: 15px;
+		}
+		h2 {
+			font-size: 25px;
+		}
+	}
+	.softeware-app-download-content {
+		.btn-box {
+			.playstore-btn {
+				font-size: 10px;
+				padding-left: 50px;
+				padding-right: 15px;
+				.img {
+					left: 10px;
+				}
+				span {
+					font-size: 12px;
+				}
+			}
+			.applestore-btn {
+				font-size: 10px;
+				padding-left: 50px;
+				padding-right: 15px;
+				span {
+					font-size: 12px;
+				}
+				.img {
+					left: 10px;
+				}
+			}
+		}
+	}
+
+	.software {
+		&.video-box {
+			.video-btn {
+				width: 60px !important;
+				height: 60px !important;
+				font-size: 25px;
+			}
+		}
+	}
+
+	.software-partner-item {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+	.software-single-help-desk-box {
+		h3 {
+			font-size: 20px;
+		}
+	}
+
+	.screenshots-tabs {
+		.react-tabs__tab-list {
+			.react-tabs__tab {
+				padding: 10px 15px;
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.software-banner-area {
+		border-bottom: 1px solid #eee;
+		margin-bottom: 70px;
+	}
+	.software-banner-content {
+		padding-right: 15px;
+		padding-left: 15px;
+		text-align: center;
+		margin: auto;
+		h1 {
+			font-size: 45px;
+		}
+	}
+	.software-banner-image {
+		padding-right: 15px;
+	}
+
+	.software-partner-item {
+		margin-top: 25px;
+		margin-bottom: 0;
+	}
+
+	.software-overview-box {
+		padding-bottom: 70px;
+		.overview-image {
+			padding-right: 15px;
+			&.left-img {
+				margin-bottom: 30px;
+			}
+			&.right-img {
+				margin-top: 30px;
+			}
+		}
+	}
+
+	.software-overview-box {
+		.overview-content {
+			h2 {
+				font-size: 32px;
+			}
+			.overview-list {
+				li {
+					span {
+						padding: 20px 25px 19px 80px;
+					}
+				}
+			}
+		}
+	}
+
+	.software-funfacts-item {
+		padding-left: 100px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		.icon {
+			width: 80px;
+			height: 80px;
+			font-size: 30px;
+		}
+		h3 {
+			color: #ff2c9c;
+			margin-bottom: 5px;
+			font-size: 30px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+
+	.software {
+		&.video-box {
+			margin-top: 30px;
+		}
+	}
+
+	.software-pricing-box {
+		padding: 30px;
+		.features-list {
+			li {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.faq-img {
+		&.pl-30 {
+			padding: 0;
+			margin-top: 40px;
+		}
+	}
+
+	.softeware-app-download-area {
+		padding-bottom: 70px;
+	}
+	.softeware-app-download-content {
+		margin-top: 50px;
+		h2 {
+			font-size: 35px;
+		}
+	}
+}
+ 
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+	.software-banner-area {
+		border-bottom: 1px solid #eee;
+		margin-bottom: 100px;
+		padding-top: 150px;
+		padding-bottom: 100px;
+		.container-fluid {
+			max-width: 960px;
+			padding-left: var(--bs-gutter-x,.75rem);
+			padding-right: var(--bs-gutter-x,.75rem);
+		}
+	}
+	.software-banner-content {
+		max-width: 100%;
+		h1 {
+			font-size: 50px;
+		}
+	}
+
+	.software-single-help-desk-box {
+		padding: 30px 20px;
+		h3 {
+			font-size: 19px;
+		}
+	}
+
+	.software-overview-box {
+		.overview-content {
+			.overview-list {
+				li {
+					span {
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}
+
+	.softeware-app-download-content {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1399px) {
+	.software-banner-content {
+		max-width: 560px;
+	}
+
+	.section-title {
+		h2 {
+			font-size: 35px;
+		}
+	}
+}

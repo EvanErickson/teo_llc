@@ -1,0 +1,834 @@
+.software-btn {
+  background-color: #ff2c9c;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 12px 35px;
+  transition: all 0.6s ease;
+  border: 1px solid #ff2c9c;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.software-btn:hover {
+  background-color: #18181b;
+  border: 1px solid #18181b;
+  color: #fff;
+}
+
+/* Software Banner Area CSS */
+.software-banner-area {
+  z-index: 1;
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 10px;
+}
+.software-banner-area .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.software-banner-area .container-fluid .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.software-banner-area .container-fluid .row .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.software-banner-area::before {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  content: "";
+  height: 90%;
+  position: absolute;
+  background-image: url(/images/software/banner-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.software-banner-content {
+  max-width: 648px;
+  margin-left: auto;
+  padding-right: 15px;
+}
+.software-banner-content .sub-title {
+  color: #ff2c9c;
+  margin-bottom: 15px;
+  display: block;
+}
+.software-banner-content h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.software-banner-content p {
+  max-width: 540px;
+}
+.software-banner-content .software-btn {
+  margin-top: 15px;
+}
+
+.software-banner-image {
+  padding-left: 15px;
+  text-align: center;
+}
+
+/* Help Desk Area CSS */
+.software-single-help-desk-box {
+  margin-bottom: 30px;
+  background-color: #f5f5f5;
+  padding: 40px 30px;
+  position: relative;
+  transition: all 0.6s ease;
+}
+.software-single-help-desk-box::before {
+  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  width: 0%;
+  height: 3px;
+  left: 0;
+  top: 0;
+  content: "";
+  position: absolute;
+  transition: all 0.6s ease;
+}
+.software-single-help-desk-box:hover, .software-single-help-desk-box:hover::before {
+  width: 100%;
+  transform: translateY(-5px);
+}
+.software-single-help-desk-box .icon {
+  margin-bottom: 25px;
+}
+.software-single-help-desk-box h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.software-single-help-desk-box .link-btn {
+  position: relative;
+  padding-right: 14px;
+  display: inline-block;
+  color: #ff2c9c;
+  font-size: 15px;
+  font-weight: 600;
+}
+.software-single-help-desk-box .link-btn i {
+  position: relative;
+  font-size: 17px;
+  top: 1px;
+}
+.software-single-help-desk-box .link-btn:hover {
+  color: #18181b;
+  padding-right: 20px;
+}
+
+/* Screenshots Area */
+.screenshots-area.bg-gradient {
+  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00) !important;
+}
+
+.screenshots-tabs .react-tabs__tab-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+.screenshots-tabs .react-tabs__tab-list .react-tabs__tab {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  font-weight: 600;
+  color: #000;
+  border-radius: 6px;
+  transition: all 0.6s ease;
+}
+.screenshots-tabs .react-tabs__tab-list .react-tabs__tab:hover, .screenshots-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+  background-color: #18181b;
+  border: 1px solid #18181b;
+  color: #fff;
+}
+.screenshots-tabs .react-tabs__tab-list .react-tabs__tab:last-child {
+  margin-bottom: 0;
+}
+.screenshots-tabs .react-tabs__tab-list .react-tabs__tab:focus-visible {
+  outline: 0 !important;
+}
+
+/* Software partner area */
+.software-partner-area .partner-title {
+  color: #1d2b53;
+  font-weight: 600;
+}
+
+.software-partner-item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Software Overview Box */
+.software-overview-box {
+  padding-bottom: 100px;
+}
+.software-overview-box:nth-child(2) .overview-image, .software-overview-box:nth-child(4) .overview-image, .software-overview-box:nth-child(6) .overview-image, .software-overview-box:nth-child(8) .overview-image, .software-overview-box:nth-child(10) .overview-image, .software-overview-box:nth-child(12) .overview-image {
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: 30px;
+}
+.software-overview-box:nth-child(2) .overview-content, .software-overview-box:nth-child(4) .overview-content, .software-overview-box:nth-child(6) .overview-content, .software-overview-box:nth-child(8) .overview-content, .software-overview-box:nth-child(10) .overview-content, .software-overview-box:nth-child(12) .overview-content {
+  padding-right: 30px;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+.software-overview-box:last-child {
+  padding-bottom: 0;
+}
+.software-overview-box .overview-image {
+  text-align: center;
+  padding-right: 30px;
+}
+.software-overview-box .overview-content {
+  padding-left: 30px;
+}
+.software-overview-box .overview-content .sub-title {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.software-overview-box .overview-content h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.software-overview-box .overview-content .overview-list {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 45px;
+}
+.software-overview-box .overview-content .overview-list li {
+  margin-bottom: 30px;
+  margin-right: 80px;
+}
+.software-overview-box .overview-content .overview-list li span {
+  display: block;
+  position: relative;
+  border-radius: 7px;
+  padding: 15px 25px 15px 75px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 28px 12px rgba(0, 0, 0, 0.06);
+  color: #18181b;
+  font-size: 20px;
+  font-weight: 700;
+}
+.software-overview-box .overview-content .overview-list li span i {
+  transition: all 0.6s ease;
+  transform: translateY(-50%);
+  background-color: #ff2c9c;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  line-height: 36px;
+  font-size: 22px;
+  height: 36px;
+  width: 36px;
+  left: 25px;
+  top: 50%;
+}
+.software-overview-box .overview-content .overview-list li span a {
+  color: #18181b;
+}
+.software-overview-box .overview-content .overview-list li span a:hover {
+  color: #ff2c9c;
+}
+.software-overview-box .overview-content .overview-list li span:hover i {
+  background-color: #18181b;
+  color: #ffffff;
+}
+.software-overview-box .overview-content .overview-list li:nth-child(2), .software-overview-box .overview-content .overview-list li:nth-child(4), .software-overview-box .overview-content .overview-list li:nth-child(6), .software-overview-box .overview-content .overview-list li:nth-child(8), .software-overview-box .overview-content .overview-list li:nth-child(10), .software-overview-box .overview-content .overview-list li:nth-child(12) {
+  margin-left: 80px;
+  margin-right: 0;
+}
+.software-overview-box .overview-content .overview-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Funfacts */
+.software-funfacts-item {
+  position: relative;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-left: 145px;
+  padding-bottom: 20px;
+}
+.software-funfacts-item .icon {
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  border-radius: 50%;
+  color: #ff2c9c;
+  transition: all 0.6s ease;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.1);
+}
+.software-funfacts-item .icon i {
+  left: 0;
+  right: 0;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.software-funfacts-item h3 {
+  color: #ff2c9c;
+  margin-bottom: 5px;
+  font-size: 38px;
+}
+.software-funfacts-item p {
+  line-height: initial;
+  color: #616b7e;
+  font-size: 20px;
+}
+.software-funfacts-item:hover .icon {
+  background-color: #ff2c9c;
+  color: #ffffff;
+}
+
+.software.video-box {
+  position: relative;
+  max-width: 1095px;
+  z-index: 1;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.software.video-box .video-btn {
+  width: 90px !important;
+  height: 90px !important;
+}
+
+/* Pricing Area CSS */
+.software-pricing-box {
+  z-index: 1;
+  padding: 40px;
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+}
+.software-pricing-box h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.software-pricing-box p {
+  font-size: 16px;
+}
+.software-pricing-box .price {
+  line-height: 1;
+  color: #18181b;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 55px;
+  font-weight: 700;
+}
+.software-pricing-box .price span {
+  color: #646464;
+  font-size: 16px;
+  font-weight: normal;
+}
+.software-pricing-box .features-list {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+.software-pricing-box .features-list li {
+  margin-bottom: 17px;
+  position: relative;
+  padding-top: 2px;
+  padding-left: 35px;
+  padding-bottom: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.software-pricing-box .features-list li i {
+  background-color: #ff2c9c;
+  transition: all 0.6s ease;
+  transform: translateY(-50%);
+  color: #ffffff;
+  margin-top: -1px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  line-height: 25px;
+  font-size: 14px;
+  height: 25px;
+  width: 25px;
+  top: 50%;
+  left: 0;
+}
+.software-pricing-box .features-list li.close i {
+  background-color: #ff004d;
+}
+.software-pricing-box .features-list li:hover i {
+  background-color: #18181b;
+  color: #ffffff;
+}
+.software-pricing-box .features-list li:last-child {
+  margin-bottom: 0;
+}
+.software-pricing-box::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.6s ease;
+  background: linear-gradient(180deg, rgba(98, 236, 255, 0.21) 0%, rgba(180, 246, 255, 0.0735) 100%);
+}
+.software-pricing-box:hover::before, .software-pricing-box.active::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Software faq */
+.software-faq.faq-accordion .accordion .accordion__item {
+  box-shadow: 0px 0px 59px 31px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.software-faq.faq-accordion .accordion .accordion__item .accordion__button {
+  border-radius: 10px;
+  padding: 15px 40px 15px 20px;
+  background-color: #fff;
+}
+.software-faq.faq-accordion .accordion .accordion__item .accordion__button::before {
+  position: absolute;
+  right: 10px;
+  top: 23px;
+}
+.software-faq.faq-accordion .accordion .accordion__panel {
+  box-shadow: 0px 0px 59px 31px rgba(0, 0, 0, 0.05);
+}
+
+.faq-img.pl-30 {
+  padding-left: 30px;
+}
+
+/* End Software faq */
+/* App Download Area CSS */
+.softeware-app-download-area {
+  background-color: #473bf0;
+}
+
+.softeware-app-download-image {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.softeware-app-download-image::before {
+  left: 0;
+  z-index: -1;
+  content: "";
+  width: 635px;
+  height: 635px;
+  bottom: -225px;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  animation: border-transform 10s linear infinite alternate forwards;
+}
+
+.softeware-app-download-content {
+  margin-top: 80px;
+  padding-left: 15px;
+}
+.softeware-app-download-content .sub-title {
+  display: block;
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+.softeware-app-download-content h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.softeware-app-download-content p {
+  color: #ffffff;
+}
+.softeware-app-download-content .btn-box {
+  margin-top: 35px;
+}
+.softeware-app-download-content .btn-box .playstore-btn {
+  position: relative;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: inline-block;
+  color: #646464;
+  background-color: #ffffff;
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-left: 60px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+}
+.softeware-app-download-content .btn-box .playstore-btn span {
+  display: block;
+  margin-top: 2px;
+  transition: all 0.6s ease;
+  font-size: 17px;
+  font-weight: 700;
+}
+.softeware-app-download-content .btn-box .playstore-btn .img {
+  transform: translateY(-50%);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+}
+.softeware-app-download-content .btn-box .playstore-btn:hover {
+  background-color: #18181b;
+  transform: translateY(-3px);
+  color: #ffffff;
+}
+.softeware-app-download-content .btn-box .playstore-btn:hover span {
+  color: #ffffff !important;
+}
+.softeware-app-download-content .btn-box .applestore-btn {
+  position: relative;
+  border-radius: 5px;
+  display: inline-block;
+  color: #646464;
+  background-color: #ffffff;
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-left: 65px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+}
+.softeware-app-download-content .btn-box .applestore-btn span {
+  display: block;
+  margin-top: 2px;
+  transition: all 0.6s ease;
+  font-size: 17px;
+  font-weight: 700;
+}
+.softeware-app-download-content .btn-box .applestore-btn .img {
+  transform: translateY(-50%);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+}
+.softeware-app-download-content .btn-box .applestore-btn:hover {
+  background-color: #18181b;
+  transform: translateY(-3px);
+  color: #ffffff;
+}
+.softeware-app-download-content .btn-box .applestore-btn:hover span {
+  color: #ffffff !important;
+}
+
+/* Responsive Style ----------- */
+@media only screen and (max-width: 767px) {
+  .software-btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .software-banner-area {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 50px;
+  }
+  .software-banner-content {
+    max-width: 540px;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .software-banner-content h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .software-banner-content .software-btn {
+    margin-top: 10px;
+  }
+  .software-banner-image {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+  .software-overview-box {
+    padding-bottom: 50px;
+  }
+  .software-overview-box:nth-child(2) .overview-image, .software-overview-box:nth-child(4) .overview-image, .software-overview-box:nth-child(6) .overview-image, .software-overview-box:nth-child(8) .overview-image, .software-overview-box:nth-child(10) .overview-image, .software-overview-box:nth-child(12) .overview-image {
+    padding-left: 15px;
+  }
+  .software-overview-box:nth-child(2) .overview-content, .software-overview-box:nth-child(4) .overview-content, .software-overview-box:nth-child(6) .overview-content, .software-overview-box:nth-child(8) .overview-content, .software-overview-box:nth-child(10) .overview-content, .software-overview-box:nth-child(12) .overview-content {
+    padding-right: 15px;
+  }
+  .software-overview-box .overview-image {
+    padding-right: 0;
+  }
+  .software-overview-box .overview-image.left-img {
+    margin-bottom: 30px;
+  }
+  .software-overview-box .overview-image.right-img {
+    margin-top: 30px;
+  }
+  .software-overview-box .overview-content {
+    padding-left: 15px;
+  }
+  .software-overview-box .overview-content .sub-title {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .software-overview-box .overview-content h2 {
+    font-size: 30px;
+  }
+  .software-overview-box .overview-content .overview-list {
+    margin-top: 25px;
+  }
+  .software-overview-box .overview-content .overview-list li {
+    margin-right: 0;
+  }
+  .software-overview-box .overview-content .overview-list li:nth-child(2), .software-overview-box .overview-content .overview-list li:nth-child(4), .software-overview-box .overview-content .overview-list li:nth-child(6), .software-overview-box .overview-content .overview-list li:nth-child(8), .software-overview-box .overview-content .overview-list li:nth-child(10), .software-overview-box .overview-content .overview-list li:nth-child(12) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .software-overview-box .overview-content .overview-list li span {
+    padding: 20px 25px 20px 70px;
+    font-size: 15px;
+  }
+  .software-funfacts-item {
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 20px 15px;
+  }
+  .software-funfacts-item .icon {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    position: relative;
+    margin: 0 auto 15px;
+  }
+  .software-funfacts-item .icon i {
+    margin: 0;
+  }
+  .software-funfacts-item h3 {
+    font-size: 27px;
+  }
+  .software-funfacts-item p {
+    font-size: 14px;
+  }
+  .software.video-box {
+    margin-top: 20px;
+  }
+  .software-pricing-box {
+    padding: 30px;
+  }
+  .software-pricing-box .features-list li {
+    font-size: 13px;
+    padding-left: 27px;
+  }
+  .software-pricing-box .features-list li i {
+    line-height: 20px;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+  }
+  .software-faq {
+    margin-bottom: 30px;
+  }
+  .faq-img.pl-30 {
+    padding: 0;
+  }
+  .softeware-app-download-area {
+    padding-bottom: 50px;
+  }
+  .softeware-app-download-image::before {
+    display: none;
+  }
+  .softeware-app-download-content {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .softeware-app-download-content .sub-title {
+    font-size: 15px;
+  }
+  .softeware-app-download-content h2 {
+    font-size: 25px;
+  }
+  .softeware-app-download-content .btn-box .playstore-btn {
+    font-size: 10px;
+    padding-left: 50px;
+    padding-right: 15px;
+  }
+  .softeware-app-download-content .btn-box .playstore-btn .img {
+    left: 10px;
+  }
+  .softeware-app-download-content .btn-box .playstore-btn span {
+    font-size: 12px;
+  }
+  .softeware-app-download-content .btn-box .applestore-btn {
+    font-size: 10px;
+    padding-left: 50px;
+    padding-right: 15px;
+  }
+  .softeware-app-download-content .btn-box .applestore-btn span {
+    font-size: 12px;
+  }
+  .softeware-app-download-content .btn-box .applestore-btn .img {
+    left: 10px;
+  }
+  .software.video-box .video-btn {
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 25px;
+  }
+  .software-partner-item {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .software-single-help-desk-box h3 {
+    font-size: 20px;
+  }
+  .screenshots-tabs .react-tabs__tab-list .react-tabs__tab {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .software-banner-area {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 70px;
+  }
+  .software-banner-content {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin: auto;
+  }
+  .software-banner-content h1 {
+    font-size: 45px;
+  }
+  .software-banner-image {
+    padding-right: 15px;
+  }
+  .software-partner-item {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  .software-overview-box {
+    padding-bottom: 70px;
+  }
+  .software-overview-box .overview-image {
+    padding-right: 15px;
+  }
+  .software-overview-box .overview-image.left-img {
+    margin-bottom: 30px;
+  }
+  .software-overview-box .overview-image.right-img {
+    margin-top: 30px;
+  }
+  .software-overview-box .overview-content h2 {
+    font-size: 32px;
+  }
+  .software-overview-box .overview-content .overview-list li span {
+    padding: 20px 25px 19px 80px;
+  }
+  .software-funfacts-item {
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .software-funfacts-item .icon {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .software-funfacts-item h3 {
+    color: #ff2c9c;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  .software-funfacts-item p {
+    font-size: 16px;
+  }
+  .software.video-box {
+    margin-top: 30px;
+  }
+  .software-pricing-box {
+    padding: 30px;
+  }
+  .software-pricing-box .features-list li {
+    font-size: 15px;
+  }
+  .faq-img.pl-30 {
+    padding: 0;
+    margin-top: 40px;
+  }
+  .softeware-app-download-area {
+    padding-bottom: 70px;
+  }
+  .softeware-app-download-content {
+    margin-top: 50px;
+  }
+  .softeware-app-download-content h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .software-banner-area {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .software-banner-area .container-fluid {
+    max-width: 960px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .software-banner-content {
+    max-width: 100%;
+  }
+  .software-banner-content h1 {
+    font-size: 50px;
+  }
+  .software-single-help-desk-box {
+    padding: 30px 20px;
+  }
+  .software-single-help-desk-box h3 {
+    font-size: 19px;
+  }
+  .software-overview-box .overview-content .overview-list li span {
+    font-size: 18px;
+  }
+  .softeware-app-download-content {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .software-banner-content {
+    max-width: 560px;
+  }
+  .section-title h2 {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=software-home-page.css.map */
