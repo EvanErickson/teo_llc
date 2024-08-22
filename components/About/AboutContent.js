@@ -42,27 +42,21 @@ const AboutContent = () => {
                 <div className="section-title">
                   <h2>About Us</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  Welcome to TEOLLC, where innovation meets expertise. We’re dedicated to providing top-notch IT consultancy services tailored to your business needs.
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Who We Are</h4>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis..
+                  At TEOLLC, we are a passionate team of IT professionals with years of experience in the industry. Our diverse skill set and dedication to excellence empower us to deliver cutting-edge solutions that drive success. We pride ourselves on our ability to understand our clients’ unique challenges and deliver strategies that lead to tangible results.
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Our History</h4>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the.
+                  Founded in 2010, TEOLLC began with a vision to transform the IT consultancy landscape in China. What started as a small team of enthusiastic tech experts has grown into a leading firm known for its innovative solutions and client-centric approach. Over the years, we’ve successfully partnered with numerous businesses, helping them navigate the complexities of the digital world.
                   </p>
                 </div>
 
@@ -71,20 +65,15 @@ const AboutContent = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      We strive to provide exceptional IT solutions that exceed our clients' expectations and help them achieve their business goals.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
+                      By staying ahead of industry trends and leveraging the latest technologies, we aim to drive innovation and ensure our clients are at the forefront of their industries.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature.
+                      Our commitment to transparency, integrity, and outstanding service allows us to build strong, long-term relationships with our clients and partners.
                     </li>
                   </ul>
                 </div>

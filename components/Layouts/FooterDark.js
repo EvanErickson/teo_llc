@@ -97,9 +97,9 @@ const FooterDark = () => {
                   <li>
                     <Link href="/contact-us/">Contact Us</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pricing/">Pricing</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/faq/">Faq</Link>
                   </li>

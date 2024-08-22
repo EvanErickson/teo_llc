@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const teamMemberData = [
   {
-    image: "/images/team/team5.jpg",
-    name: "Anderson",
+    image: "/images/team/Evan Erickson.jpg",
+    name: "Evan Erickson",
     designation: "CEO & Founder",
     aosDelay: "100",
 
@@ -32,7 +32,7 @@ const teamMemberData = [
     ],
   },
   {
-    image: "/images/team/team6.jpg",
+    image: "/images/team/team2.jpg",
     name: "Rodriguez",
     designation: "React Developer",
     aosDelay: "200",
@@ -61,7 +61,7 @@ const teamMemberData = [
     ],
   },
   {
-    image: "/images/team/team7.jpg",
+    image: "/images/team/team1.jpg",
     name: "Thomas",
     designation: "Angular Developer",
     aosDelay: "300",
@@ -90,7 +90,7 @@ const teamMemberData = [
     ],
   },
   {
-    image: "/images/team/Evan Erickson.jpg",
+    image: "/images/team/team11.jpg",
     name: "Evan Erickson",
     designation: "Marketing Manager",
     aosDelay: "400",
@@ -273,8 +273,7 @@ const TeamStyleTwo = () => {
           <div className="section-title">
             <h2>All Team Members</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Meet the experts behind TEOLLC. Our dedicated professionals bring a wealth of experience and a passion for technology to deliver outstanding results.
             </p>
           </div>
 

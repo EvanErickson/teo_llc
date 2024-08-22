@@ -55,8 +55,7 @@ const WorksStyleTwo = () => {
           <div className="section-title">
             <h2>Our All Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Discover the full range of our work, where innovation meets excellence across every project we undertake.
             </p>
           </div>
 

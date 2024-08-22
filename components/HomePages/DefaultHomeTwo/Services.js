@@ -6,7 +6,7 @@ const servicesData = [
     iconName: "pe-7s-comment bg-13c4a1",
     title: "Business Consultancy",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+    "Strategic advice to streamline operations, enhance efficiency, and achieve business goals effectively.",
     viewDetails: "/services/service-details/",
     aosDelay: "100",
   },
@@ -14,7 +14,7 @@ const servicesData = [
     iconName: "pe-7s-display2 bg-6610f2",
     title: "Web Development",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+    "Custom web solutions designed to build engaging and responsive websites tailored to your needs.",
     viewDetails: "/services/service-details/",
     aosDelay: "200",
   },
@@ -22,7 +22,7 @@ const servicesData = [
     iconName: "pe-7s-light bg-ffb700",
     title: "Digital Marketing",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+    "Comprehensive digital marketing strategies to increase your online presence and drive targeted traffic.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
@@ -30,7 +30,7 @@ const servicesData = [
     iconName: "pe-7s-phone bg-fc3549",
     title: "Mobile App Development",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+    "Expertly crafted mobile applications that provide seamless user experiences across all devices.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
@@ -38,7 +38,7 @@ const servicesData = [
     iconName: "pe-7s-cart bg-00d280",
     title: "eCommerce Development",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+    "Build and optimize your online store with robust eCommerce solutions to drive sales and growth.",
     viewDetails: "/services/service-details/",
     aosDelay: "500",
   },
@@ -46,7 +46,7 @@ const servicesData = [
     iconName: "pe-7s-users bg-ff612f",
     title: "Marketing & Reporting",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+    "Data-driven marketing campaigns with detailed reporting to measure success and refine strategies.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },

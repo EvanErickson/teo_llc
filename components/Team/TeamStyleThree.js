@@ -154,8 +154,7 @@ const TeamStyleThree = () => {
           <div className="section-title">
             <h2>Our Expert Team</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            At TEOLLC, our skilled team delivers top-notch IT solutions with a blend of expertise and innovation. We’re dedicated to driving your business success with our diverse experience and commitment to excellence.
             </p>
           </div>
 

@@ -6,7 +6,7 @@ const servicesData = [
     iconName: "pe-7s-comment bg-13c4a1",
     title: "Business Consultancy",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Strategic advice to streamline operations, enhance efficiency, and achieve business goals effectively.",
     viewDetails: "/services/service-details/",
     aosDelay: "100",
   },
@@ -14,7 +14,7 @@ const servicesData = [
     iconName: "pe-7s-display2 bg-6610f2",
     title: "Web Development",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Custom web solutions designed to build engaging and responsive websites tailored to your needs.",
     viewDetails: "/services/service-details/",
     aosDelay: "200",
   },
@@ -22,7 +22,7 @@ const servicesData = [
     iconName: "pe-7s-light bg-ffb700",
     title: "Digital Marketing",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Comprehensive digital marketing strategies to increase your online presence and drive targeted traffic.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
@@ -30,7 +30,7 @@ const servicesData = [
     iconName: "pe-7s-phone bg-fc3549",
     title: "Mobile App Development",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Expertly crafted mobile applications that provide seamless user experiences across all devices.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
@@ -38,7 +38,7 @@ const servicesData = [
     iconName: "pe-7s-cart bg-00d280",
     title: "eCommerce Development",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Build and optimize your online store with robust eCommerce solutions to drive sales and growth.",
     viewDetails: "/services/service-details/",
     aosDelay: "500",
   },
@@ -46,7 +46,7 @@ const servicesData = [
     iconName: "pe-7s-users bg-ff612f",
     title: "Marketing & Reporting",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Data-driven marketing campaigns with detailed reporting to measure success and refine strategies.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },
@@ -54,7 +54,7 @@ const servicesData = [
     iconName: "pe-7s-headphones bg-6610f2",
     title: "IT Consultancy",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Professional IT consulting to address technical challenges and implement innovative technology solutions.",
     viewDetails: "/services/service-details/",
     aosDelay: "700",
   },
@@ -62,7 +62,7 @@ const servicesData = [
     iconName: "pe-7s-users bg-13c4a1",
     title: "Social Marketing",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Effective social media strategies to enhance brand visibility and engagement across all platforms.",
     viewDetails: "/services/service-details/",
     aosDelay: "800",
   },
@@ -70,12 +70,11 @@ const servicesData = [
     iconName: "pe-7s-comment bg-fc3549",
     title: "Admin Support",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "Efficient administrative support services to manage tasks, streamline processes, and boost productivity.",
     viewDetails: "/services/service-details/",
     aosDelay: "900",
   },
 ];
-
 const ServicesStyleTwo = () => {
   return (
     <>

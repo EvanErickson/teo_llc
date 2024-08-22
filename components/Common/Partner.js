@@ -72,8 +72,7 @@ const Partner = () => {
           <div className="section-title">
             <h2>Trusted By</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Join the ranks of our satisfied clients who trust us to deliver innovative and reliable technology solutions that drive their success.
             </p>
           </div>
 

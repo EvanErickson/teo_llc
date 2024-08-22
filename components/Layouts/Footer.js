@@ -112,11 +112,11 @@ const Footer = () => {
                       Contact Us
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pricing/">
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/faq/">
                       Faq

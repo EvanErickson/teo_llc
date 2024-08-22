@@ -6,7 +6,7 @@ const servicesData = [
     iconName: "pe-7s-comment bg-13c4a1",
     title: "IT Consultancy",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Align your technology with expert IT Consultancy, guiding infrastructure, cybersecurity, and digital transformation to drive efficiency.",
     viewDetails: "/services/service-details/",
     aosDelay: "100",
   },
@@ -14,7 +14,7 @@ const servicesData = [
     iconName: "pe-7s-display2 bg-6610f2",
     title: "Web Development",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "We create responsive, user-friendly websites optimized for performance, ensuring your online presence is stunning and stands out.",
     viewDetails: "/services/service-details/",
     aosDelay: "200",
   },
@@ -22,7 +22,7 @@ const servicesData = [
     iconName: "pe-7s-light bg-ffb700",
     title: "Digital Marketing",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Boost your brand with custom digital marketing strategies, including SEO, social media, and targeted ad campaigns that deliver results.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
@@ -30,7 +30,7 @@ const servicesData = [
     iconName: "pe-7s-phone bg-fc3549",
     title: "Mobile App Development",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Develop high-performance mobile apps for iOS and Android, with scalable solutions designed to meet your business objectives.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
@@ -38,7 +38,7 @@ const servicesData = [
     iconName: "pe-7s-cart bg-00d280",
     title: "eCommerce Development",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Build powerful online stores that offer exceptional shopping experiences with custom designs, secure checkouts, and integrations.",
     viewDetails: "/services/service-details/",
     aosDelay: "500",
   },
@@ -46,7 +46,7 @@ const servicesData = [
     iconName: "pe-7s-users bg-ff612f",
     title: "T Solutions",
     shortText:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.",
+      "Solve complex IT challenges with bespoke software, cloud computing, and systems integration services to enhance efficiency.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },

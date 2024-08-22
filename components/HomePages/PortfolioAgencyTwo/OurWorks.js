@@ -97,8 +97,7 @@ const OurWorks = () => {
           <div className="section-title">
             <h2>Our Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Explore our portfolio of successful projects, showcasing our expertise in delivering tailored solutions that meet diverse business needs.
             </p>
           </div>
 
