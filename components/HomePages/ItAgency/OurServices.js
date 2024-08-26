@@ -44,7 +44,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-users bg-ff612f",
-    title: "T Solutions",
+    title: "IT Solutions",
     shortText:
       "Solve complex IT challenges with bespoke software, cloud computing, and systems integration services to enhance efficiency.",
     viewDetails: "/services/service-details/",
