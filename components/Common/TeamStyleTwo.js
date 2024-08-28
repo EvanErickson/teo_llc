@@ -31,64 +31,64 @@ const teamMemberData = [
       },
     ],
   },
-  {
-    image: "/images/team/team10.jpg",
-    name: "Johnson Lee",
-    designation: "Backend Specialist",
-    aosDelay: "200",
+  // {
+  //   image: "/images/team/team10.jpg",
+  //   name: "Johnson Lee",
+  //   designation: "Backend Specialist",
+  //   aosDelay: "200",
 
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
-  {
-    image: "/images/team/team11.jpg",
-    name: "Williams Smith",
-    designation: "Front-end Specialist",
-    aosDelay: "300",
+  //   socialLinks: [
+  //     {
+  //       iconName: "fa-brands fa-linkedin-in",
+  //       url: "https://linkedin.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-twitter",
+  //       url: "https://twitter.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-facebook-f",
+  //       url: "https://facebook.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-instagram",
+  //       url: "https://instagram.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-dribbble",
+  //       url: "https://dribbble.com/",
+  //     },
+  //   ],
+  // },
+  // {
+  //   image: "/images/team/team11.jpg",
+  //   name: "Williams Smith",
+  //   designation: "Front-end Specialist",
+  //   aosDelay: "300",
 
-    socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
-    ],
-  },
+  //   socialLinks: [
+  //     {
+  //       iconName: "fa-brands fa-linkedin-in",
+  //       url: "https://linkedin.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-twitter",
+  //       url: "https://twitter.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-facebook-f",
+  //       url: "https://facebook.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-instagram",
+  //       url: "https://instagram.com/",
+  //     },
+  //     {
+  //       iconName: "fa-brands fa-dribbble",
+  //       url: "https://dribbble.com/",
+  //     },
+  //   ],
+  // },
 ];
 
 const TeamStyleTwo = () => {

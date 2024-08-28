@@ -118,14 +118,14 @@ const NavbarTwo = () => {
 
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="/blog/"
                     className="nav-link"
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link

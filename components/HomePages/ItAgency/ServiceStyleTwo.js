@@ -53,11 +53,11 @@ const ServiceStyleTwo = () => {
                   </div>
                 </div>
 
-                <div className="service-read-more">
+                {/* <div className="service-read-more">
                   <Link href="/services/service-details/" className="btn btn-primary">
                     <i className="fa-solid fa-list-check"></i> Read more
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -138,11 +138,11 @@ const ServiceStyleTwo = () => {
                   </div>
                 </div>
 
-                <div className="service-read-more">
+                {/* <div className="service-read-more">
                   <Link href="/services/service-details/" className="btn btn-primary">
                     <i className="fa-solid fa-list-check"></i> Read more
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -193,11 +193,11 @@ const ServiceStyleTwo = () => {
                   </div>
                 </div>
 
-                <div className="service-read-more">
+                {/* <div className="service-read-more">
                   <Link href="/services/service-details/" className="btn btn-primary">
                     <i className="fa-solid fa-list-check"></i> Read more
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 

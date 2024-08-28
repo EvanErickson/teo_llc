@@ -146,17 +146,17 @@ const Footer = () => {
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
-                  <li>
+                  {/* <li>
                     <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
                     Victoria, Canada.
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+1-949-449-9650</a> 
+                    <a href="tel:+1-949-449-9650">+1-949-449-9650</a> 
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:Evan@teollc.us">Evan@teollc.us</a>
+                    <a href="mailto:evan@teollc.us">evan@teollc.us</a>
                     {/* <a href="mailto:support@pungent.com">support@pungent.com</a> */}
                   </li>
                 </ul>

@@ -60,7 +60,7 @@ const OurServices = () => {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-            Offering tailored IT solutions designed to meet the unique needs of businesses in China, from innovative technology strategies to seamless implementation and support.
+            Offering tailored IT solutions designed to meet the unique needs of businesses work with China, from innovative technology strategies to seamless implementation and support.
             </p>
           </div>
 

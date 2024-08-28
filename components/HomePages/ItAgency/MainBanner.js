@@ -52,7 +52,7 @@ const MainBanner = () => {
                       Get Started
                     </Link>
 
-                    <button
+                    {/* <button
                       onClick={() => setToggler(!toggler)}
                       className="btn btn-secondary"
                       data-aos="fade-in"
@@ -60,7 +60,7 @@ const MainBanner = () => {
                       data-aos-delay="400"
                     >
                       <i className="fa-solid fa-play me-1"></i> How it works
-                    </button>
+                    </button> */}
                   </div>
                 </div>
 
