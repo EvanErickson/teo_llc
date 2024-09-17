@@ -42,7 +42,10 @@ const FooterDark = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="linkedin.com" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/evanserickson/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>

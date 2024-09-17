@@ -56,7 +56,7 @@ const PortfolioDetailsContent2 = () => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="col-lg-12 col-md-6 pl_0">
                   <div className="portfolio-details-image">
                     <Image
@@ -165,7 +165,10 @@ const PortfolioDetailsContent2 = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/evanserickson/"
+                        target="_blank"
+                      >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </a>
                     </li>

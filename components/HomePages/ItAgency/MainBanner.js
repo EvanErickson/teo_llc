@@ -31,7 +31,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="100"
                     >
-                      We're an IT agency
+                      Your road into China
                     </h1>
 
                     <p
@@ -39,7 +39,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      Bridging global expertise with local insights to deliver cutting-edge IT solutions that drive success in China’s dynamic market.
+                      Bridging global expertise with local insights to deliver cutting-edge solutions to those engaged with the Chinese market.
                     </p>
 
                     <Link 

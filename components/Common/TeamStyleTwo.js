@@ -5,7 +5,9 @@ const teamMemberData = [
   {
     image: "/images/team/Evan Erickson.jpg",
     name: "Evan Erickson",
-    designation: "CEO & Founder",
+    designation: "CEO",
+    languages: "English, Español, Português, and 中文",
+    body: "Originally from Chicagoland, Evan has spent the last 10 years traveling the world and living in more than 6 countries. He has a degree in Accounting from DePaul Unviersity, Chicago, and a Software Enginnering certificate from The University of California, Irvine.",
     aosDelay: "100",
 
     socialLinks: [
@@ -13,22 +15,22 @@ const teamMemberData = [
         iconName: "fa-brands fa-linkedin-in",
         url: "https://linkedin.com/",
       },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
+      // {
+      //   iconName: "fa-brands fa-twitter",
+      //   url: "https://twitter.com/",
+      // },
+      // {
+      //   iconName: "fa-brands fa-facebook-f",
+      //   url: "https://facebook.com/",
+      // },
+      // {
+      //   iconName: "fa-brands fa-instagram",
+      //   url: "https://instagram.com/",
+      // },
+      // {
+      //   iconName: "fa-brands fa-dribbble",
+      //   url: "https://dribbble.com/",
+      // },
     ],
   },
   // {
@@ -141,8 +143,10 @@ const TeamStyleTwo = () => {
                     <div className="team-caption">
                       <h3>{value.name}</h3>
                       <p>{value.designation}</p>
+                      <p>{value.languages}</p>
                     </div>
                   </div>
+                      <p>{value.body}</p>
                 </div>
               ))}
           </div>
