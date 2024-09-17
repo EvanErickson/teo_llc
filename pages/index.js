@@ -31,7 +31,6 @@ const ItAgency = () => {
       {/* <Partner /> */}
 
       <Feedback />
-
       {/* <TeamStyleTwo /> */}
 
       {/* <PricingStyleThree /> */}
