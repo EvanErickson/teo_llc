@@ -4,77 +4,55 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "pe-7s-comment bg-13c4a1",
-    title: "Business Consultancy",
+    title: "Factory Sourcing and Selection",
     shortText:
-    "Strategic advice to streamline operations, enhance efficiency, and achieve business goals effectively.",
-    viewDetails: "/services/service-details/",
+      "Leverage our comprehensive database of trusted Chinese manufacturers. We meticulously match you with factories that align precisely with your product specifications and quality standards.",
+    viewDetails: "",
     aosDelay: "100",
   },
   {
     iconName: "pe-7s-display2 bg-6610f2",
-    title: "Web Development",
+    title: "Product Development and Design",
     shortText:
-    "Custom web solutions designed to build engaging and responsive websites tailored to your needs.",
-    viewDetails: "/services/service-details/",
+      "Take your idea and bring it to life with our guidance. We offer CAD modeling, item sourcing, and design opinions.",
+    viewDetails: "",
     aosDelay: "200",
   },
   {
     iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
+    title: "Supply Chain Optimization",
     shortText:
-    "Comprehensive digital marketing strategies to increase your online presence and drive targeted traffic.",
-    viewDetails: "/services/service-details/",
+      "Our efficient logistics solutions streamline your supply chain, reducing lead times and costs. We proactively identify and mitigate potential risks to ensure a smooth and reliable flow of goods.",
+
+    viewDetails: "",
     aosDelay: "300",
   },
   {
     iconName: "pe-7s-phone bg-fc3549",
-    title: "Mobile App Development",
+    title: "Wholesale Diamond Procurement",
     shortText:
-    "Expertly crafted mobile applications that provide seamless user experiences across all devices.",
-    viewDetails: "/services/service-details/",
+      "We ethically source conflict-free diamonds from trusted suppliers. Customize your diamond selection from our extensive range of cuts, qualities, and settings.",
+    viewDetails: "",
     aosDelay: "400",
   },
   {
     iconName: "pe-7s-cart bg-00d280",
-    title: "eCommerce Development",
+    title: "Wholesale Fashion and Accessories",
     shortText:
-    "Build and optimize your online store with robust eCommerce solutions to drive sales and growth.",
-    viewDetails: "/services/service-details/",
+      "Stay ahead of fashion trends with our expert insights. Access a diverse network of wholesalers for clothing and accessories to meet your specific needs.",
+    viewDetails: "",
     aosDelay: "500",
   },
   {
     iconName: "pe-7s-users bg-ff612f",
-    title: "Marketing & Reporting",
+    title: "Regulatory Compliance and Finesse",
     shortText:
-    "Data-driven marketing campaigns with detailed reporting to measure success and refine strategies.",
-    viewDetails: "/services/service-details/",
+      "Expert guidance on Chinese regulations, tarrifs, import/export procedures, and compliance requirements. We have access to attorneys in both the US and China to mitigate potential risks.",
+    viewDetails: "",
     aosDelay: "600",
   },
-  {
-    iconName: "pe-7s-headphones bg-6610f2",
-    title: "IT Consultancy",
-    shortText:
-    "Professional IT consulting to address technical challenges and implement innovative technology solutions.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "700",
-  },
-  {
-    iconName: "pe-7s-users bg-13c4a1",
-    title: "Social Marketing",
-    shortText:
-    "Effective social media strategies to enhance brand visibility and engagement across all platforms.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "800",
-  },
-  {
-    iconName: "pe-7s-comment bg-fc3549",
-    title: "Admin Support",
-    shortText:
-    "Efficient administrative support services to manage tasks, streamline processes, and boost productivity.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "900",
-  },
 ];
+
 const ServicesStyleOne = () => {
   return (
     <>

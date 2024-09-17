@@ -16,23 +16,23 @@ import leftQuote from '../../public/images/left-quote-white.png';
 
 const feedbacskData = [
   {
-    name: "John Smith",
-    designation: "CEO & Founder, Envato",
+    name: "Wendy Widger",
+    designation: "3ct. Lab grown diamond",
     feedbacskText:
-    "Partnering with this agency has been a transformative experience. Their deep understanding of our needs and their innovative solutions have taken our operations to the next level. We’ve seen significant improvements in efficiency and productivity, thanks to their expertise.",
+    "Thank you for your beautiful diamond! I was pleasantly surprised! As was Tiffany on her ring.",
   },
-  {
-    name: "Oliver Smith",
-    designation: "React JS Specialist",
-    feedbacskText:
-    "The team went above and beyond to deliver a tailored solution that perfectly fits our requirements. Their dedication, attention to detail, and outstanding support made all the difference. We couldn’t have asked for a better experience.",
-  },
-  {
-    name: "Thomas John",
-    designation: "Angular JS Specialist",
-    feedbacskText:
-    "From the start, they impressed us with their professionalism and technical know-how. Their solutions have streamlined our processes and brought real value to our business. We’re grateful for their partnership and highly recommend their services.",
-  },
+  // {
+  //   name: "Oliver Smith",
+  //   designation: "React JS Specialist",
+  //   feedbacskText:
+  //   "The team went above and beyond to deliver a tailored solution that perfectly fits our requirements. Their dedication, attention to detail, and outstanding support made all the difference. We couldn’t have asked for a better experience.",
+  // },
+  // {
+  //   name: "Thomas John",
+  //   designation: "Angular JS Specialist",
+  //   feedbacskText:
+  //   "From the start, they impressed us with their professionalism and technical know-how. Their solutions have streamlined our processes and brought real value to our business. We’re grateful for their partnership and highly recommend their services.",
+  // },
 ];
 
 const Feedback = () => {

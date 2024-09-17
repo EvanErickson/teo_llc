@@ -4,50 +4,51 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "pe-7s-comment bg-13c4a1",
-    title: "IT Consultancy",
+    title: "Factory Sourcing and Selection",
     shortText:
-      "Align your technology with expert IT Consultancy, guiding infrastructure, cybersecurity, and digital transformation to drive efficiency.",
-    viewDetails: "/services/service-details/",
+      "Leverage our comprehensive database of trusted Chinese manufacturers. We meticulously match you with factories that align precisely with your product specifications and quality standards.",
+    viewDetails: "",
     aosDelay: "100",
   },
   {
     iconName: "pe-7s-display2 bg-6610f2",
-    title: "Web Development",
+    title: "Product Development and Design",
     shortText:
-      "We create responsive, user-friendly websites optimized for performance, ensuring your online presence is stunning and stands out.",
-    viewDetails: "/services/service-details/",
+      "Take your idea and bring it to life with our guidance. We offer CAD modeling, item sourcing, and design opinions.",
+    viewDetails: "",
     aosDelay: "200",
   },
   {
     iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
+    title: "Supply Chain Optimization",
     shortText:
-      "Boost your brand with custom digital marketing strategies, including SEO, social media, and targeted ad campaigns that deliver results.",
-    viewDetails: "/services/service-details/",
+      "Our efficient logistics solutions streamline your supply chain, reducing lead times and costs. We proactively identify and mitigate potential risks to ensure a smooth and reliable flow of goods.",
+
+    viewDetails: "",
     aosDelay: "300",
   },
   {
     iconName: "pe-7s-phone bg-fc3549",
-    title: "Mobile App Development",
+    title: "Wholesale Diamond Procurement",
     shortText:
-      "Develop high-performance mobile apps for iOS and Android, with scalable solutions designed to meet your business objectives.",
-    viewDetails: "/services/service-details/",
+      "We ethically source conflict-free diamonds from trusted suppliers. Customize your diamond selection from our extensive range of cuts, qualities, and settings.",
+    viewDetails: "",
     aosDelay: "400",
   },
   {
     iconName: "pe-7s-cart bg-00d280",
-    title: "eCommerce Development",
+    title: "Wholesale Fashion and Accessories",
     shortText:
-      "Build powerful online stores that offer exceptional shopping experiences with custom designs, secure checkouts, and integrations.",
-    viewDetails: "/services/service-details/",
+      "Stay ahead of fashion trends with our expert insights. Access a diverse network of wholesalers for clothing and accessories to meet your specific needs.",
+    viewDetails: "",
     aosDelay: "500",
   },
   {
     iconName: "pe-7s-users bg-ff612f",
-    title: "IT Solutions",
+    title: "Regulatory Compliance and Finesse",
     shortText:
-      "Solve complex IT challenges with bespoke software, cloud computing, and systems integration services to enhance efficiency.",
-    viewDetails: "/services/service-details/",
+      "Expert guidance on Chinese regulations, tarrifs, import/export procedures, and compliance requirements. We have access to attorneys in both the US and China to mitigate potential risks.",
+    viewDetails: "",
     aosDelay: "600",
   },
 ];
@@ -60,7 +61,9 @@ const OurServices = () => {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-            Offering tailored IT solutions designed to meet the unique needs of businesses that work with China, from innovative technology strategies to seamless implementation and support.
+              Offering tailored solutions designed to meet the unique needs of
+              businesses that work with China, from factory search and CAD
+              development to implementation and multi-lingual support.
             </p>
           </div>
 

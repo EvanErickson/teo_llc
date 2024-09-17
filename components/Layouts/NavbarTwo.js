@@ -79,20 +79,13 @@ const NavbarTwo = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link
-                    href="/"
-                    className="nav-link"
-                  >
+                  <Link href="/" className="nav-link">
                     Home
                   </Link>
-
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/services/"
-                    className="nav-link"
-                  >
+                  <Link href="/services/" className="nav-link">
                     Services
                   </Link>
                 </li>
@@ -108,7 +101,7 @@ const NavbarTwo = () => {
                   </Link>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="/portfolio/"
                     className="nav-link"
@@ -116,7 +109,7 @@ const NavbarTwo = () => {
                     Portfolio
                   </Link>
 
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <Link

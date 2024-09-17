@@ -15,11 +15,11 @@ const ContactUs = () => {
 
       <ContactInfo />
 
-      <ContactForm />
+      {/* <ContactForm /> */}
 
-      <div className="ptb-100">
+      {/* <div className="ptb-100">
         <Newsletter />
-      </div>
+      </div> */}
 
       <Footer />
     </>

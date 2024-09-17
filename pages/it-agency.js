@@ -22,15 +22,15 @@ const ItAgency = () => {
 
       <OurServices />
 
-      <ServiceStyleTwo />
+      {/* <ServiceStyleTwo /> */}
 
-      <WhyChooseUs />
+      {/* <WhyChooseUs />
 
       <FunFactsTwo />
 
       <Partner />
 
-      <Feedback />
+      <Feedback /> */}
 
       <TeamStyleTwo />
 
