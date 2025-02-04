@@ -31,7 +31,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="100"
                     >
-                      Your road into China
+                      🚀 AI-Powered Innovation & Full-Stack Solutions
                     </h1>
 
                     <p
@@ -39,11 +39,11 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      Bridging global expertise with local insights to deliver cutting-edge solutions to those engaged with the Chinese market.
+                      Building Scalable, Intelligent, and Future-Ready Applications
                     </p>
 
                     <Link 
-                      href="/contact-us/" 
+                      href="https://tidycal.com/teollc/30-min-tech-consulting" 
                       className="btn btn-primary"
                       data-aos="fade-in"
                       data-aos-duration="1000"
