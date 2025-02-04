@@ -188,7 +188,7 @@ const NavbarDark = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         href="/default-home-2/"
                         className={`nav-link ${
@@ -296,7 +296,7 @@ const NavbarDark = () => {
                       >
                         Cyber Security Agency <span className="new">New</span>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
 
