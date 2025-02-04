@@ -78,12 +78,12 @@ const NavbarTwo = () => {
 
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="/" className="nav-link">
                     Home
                   </Link>
-                </li>
-
+                </li> */}
+                {/* 
                 <li className="nav-item">
                   <Link href="/services/" className="nav-link">
                     Services
@@ -99,7 +99,7 @@ const NavbarTwo = () => {
                   >
                     About us
                   </Link>
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <Link
@@ -119,7 +119,7 @@ const NavbarTwo = () => {
                     Blog
                   </Link>
                 </li> */}
-
+                {/* 
                 <li className="nav-item">
                   <Link
                     href="/contact-us/"
@@ -129,12 +129,15 @@ const NavbarTwo = () => {
                   >
                     Contact Us
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               <div className="others-options">
-                <Link href="/contact-us/" className="btn btn-primary">
-                  Get Started
+                <Link
+                  href="https://tidycal.com/teollc/30-min-tech-consulting"
+                  className="btn btn-primary"
+                >
+                  Book a call
                 </Link>
               </div>
             </div>

@@ -16,10 +16,10 @@ import leftQuote from '../../public/images/left-quote-white.png';
 
 const feedbacskData = [
   {
-    name: "Wendy Widger",
-    designation: "3ct. Lab grown diamond",
+    name: "Brian Abadessa",
+    designation: "Sport's Gambler's Edge",
     feedbacskText:
-    "Thank you for your beautiful diamond! I was pleasantly surprised! As was Tiffany on her ring.",
+    "Evan is a tech wizard! Give him a computer and he can accomplish any task you set him on.",
   },
   // {
   //   name: "Oliver Smith",
